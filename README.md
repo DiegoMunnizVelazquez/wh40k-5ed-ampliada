@@ -23,27 +23,27 @@ Este repositorio **no incluye el paquete `.bsr`**. Si usas también `wh40k-5ed`,
 
 ## Catálogos
 
-Estado al crear el repositorio (idéntico al de `wh40k-5ed`). La columna *revisión* es el atributo `revision` del fichero y sube cada vez que un catálogo cambia.
+Contenido idéntico al de `wh40k-5ed` al crear el repositorio. La columna *revisión* es el atributo `revision` del fichero: **en este repositorio todos los ficheros empiezan en la revisión 1** (no coincide con la numeración de `wh40k-5ed`) y sube en 1 cada vez que un catálogo cambia.
 
 | Catálogo | Revisión | Unidades |
 |---|---|---|
-| Sistema de juego (`.gst`) | 33 | — |
-| Ángeles Oscuros | 17 | 27 |
-| Ángeles Sangrientos | 15 | 35 |
-| Caballeros Grises | 16 | 31 |
-| Demonios del Caos | 4 | 30 |
-| Eldar Oscuros | 6 | 30 |
-| Eldars | 7 | 26 |
-| Guardia Imperial | 13 | 25 |
-| Hermanas de Batalla | 5 | 15 |
-| Imperio Tau | 6 | 17 |
-| Lobos Espaciales | 20 | 30 |
-| Marines Espaciales | 35 | 46 |
-| Marines Espaciales del Caos | 17 | 30 |
-| Necrones | 8 | 27 |
-| Orkos | 8 | 24 |
-| Templarios Negros | 43 | 26 |
-| Tiránidos | 7 | 30 |
+| Sistema de juego (`.gst`) | 1 | — |
+| Ángeles Oscuros | 1 | 27 |
+| Ángeles Sangrientos | 1 | 35 |
+| Caballeros Grises | 1 | 31 |
+| Demonios del Caos | 1 | 30 |
+| Eldar Oscuros | 1 | 30 |
+| Eldars | 1 | 26 |
+| Guardia Imperial | 1 | 25 |
+| Hermanas de Batalla | 1 | 15 |
+| Imperio Tau | 1 | 17 |
+| Lobos Espaciales | 1 | 30 |
+| Marines Espaciales | 1 | 46 |
+| Marines Espaciales del Caos | 1 | 30 |
+| Necrones | 1 | 27 |
+| Orkos | 1 | 24 |
+| Templarios Negros | 1 | 26 |
+| Tiránidos | 1 | 30 |
 
 *Unidades = entradas que el jugador ve al montar la lista (enlaces de la raíz del catálogo).*
 
@@ -51,4 +51,7 @@ Estado al crear el repositorio (idéntico al de `wh40k-5ed`). La columna *revisi
 
 Cada cambio se anota aquí con la fecha, el catálogo y las unidades **nuevas** o **modificadas**, indicando qué cambia (perfil, coste, opciones, reglas) y cualquier límite o duda que convenga conocer al usarlas.
 
-_Todavía no hay cambios: los catálogos y el sistema de juego son idénticos a los de `wh40k-5ed`._
+### Reinicio de revisiones — todos los catálogos y el sistema de juego
+
+- Todas las revisiones (`revision`) pasan a **1**, y el `gameSystemRevision` de cada catálogo a 1, para que este repositorio tenga numeración propia, independiente de `wh40k-5ed`.
+- No cambia ninguna unidad ni perfil: el contenido de las unidades sigue siendo idéntico al de `wh40k-5ed`.
