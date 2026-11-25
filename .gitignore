@@ -1,14 +1,9 @@
-# Python cache y bytecode
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-
-# Workspaces de VS Code
-*.code-workspace
-
-# Notas de trabajo y configuracion local de Claude (solo en local)
-DOCUMENTACION.md
-REVISION_*.md
-.claude/
-debug_*.py
+# Al repositorio solo se sube lo necesario para que funcione en la aplicación:
+# los catálogos (.cat), el sistema de juego (.gst) y el README.
+# Todo lo demás (herramientas, bases de datos, análisis, fichas, documentación,
+# configuración de Claude, worktrees...) es local y no se versiona.
+*
+!.gitignore
+!README.md
+!*.cat
+!*.gst
