@@ -80,6 +80,13 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Cápsula de desembarco única:** todas las unidades de AO que la llevan (Dreadnought, Veteranos, Escuadra Táctica, Asalto, Devastadores y Mando) usan ahora la de ME: +35 pts, baliza localizadora (+10), arma principal (bólter de asalto o lanzamisiles viento de muerte +20), HP 4 y capacidad 12. Se elimina la cápsula propia de AO (+50, HP 2, capacidad 10). El orden de los transportes asignados queda Cápsula, Rhino y Razorback.
 - Las armas y el equipo que ya existían en AO (cañones, lanzallamas, lanzamisiles, blindaje, bólter de asalto) se reutilizan; se añaden las entradas de ME que AO no tenía (cápsula de desembarco de ME con su perfil y reglas, baliza localizadora y grupos asociados).
 
+### Ángeles Oscuros — Escuadra Táctica igual a la de Marines Espaciales (revisión 2)
+
+- **Escuadra Táctica** (modificada, Línea): misma estructura y costes que la de ME. Marine Espacial +15 → **+16** y Sargento +30 → **+26** (el mínimo sigue en 90 pts). El sargento pasa a un único grupo de armas (bólter y pistola bólter por defecto, espada sierra, bólter de asalto +10, combifusión, combilanzallamas y combiplasma +10, espada de energía +15, pistola de plasma +15, puño de combate +25) y gana la baliza de teleportación (+15). Desaparece su «arma de energía» propia, sustituida por la espada de energía de ME.
+- **Armas de la escuadra:** arma especial y arma pesada solo en escuadra de diez, como en ME (en AO la especial se podía llevar con cualquier tamaño). Costes de ME: lanzallamas 0, rifle de fusión +5, rifle de plasma +10; bólter pesado, cañón de fusión y lanzamisiles 0, cañón de plasma +5, cañón láser +10.
+- **Transportes:** la cápsula de desembarco solo se ofrece con diez marines, como en ME. El **Razorback pasa de +50 a +40** (como en ME) en todas las unidades que lo llevan, porque es una entrada compartida.
+- No se añade la regla «Tácticas de Combate», que en ME es propia del codex y no existe en AO.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
