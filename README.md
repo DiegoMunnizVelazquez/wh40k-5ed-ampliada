@@ -73,6 +73,12 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Combiarmas (combifusión, combilanzallamas, combiplasma):** +15 con servoarmadura en el Bibliotecario, el Capellán y el Capellán Interrogador; solo el Señor de la Compañía las mantiene en +10. Con armadura de exterminador: +5 (Señor de la Compañía e Interrogador) y +10 (Bibliotecario, 35 pts con la armadura, como en ME).
 - Límite conocido: el *par de cuchillas relámpago* cuenta como una sola arma del grupo de dos armas, aunque ocupa las dos manos.
 
+### Ángeles Oscuros — Dreadnought alineado con Marines Espaciales (revisión 2)
+
+- **Dreadnought** (modificada): base 125 → **105** y mismas opciones y costes que el Dreadnought de ME: cápsula de desembarco asignada (+35, con baliza localizadora y arma principal, y el perfil de transporte de ME), blindaje adicional, brazo cuerpo a cuerpo (cañón automático acoplado, lanzamisiles, arma de combate con bólter de asalto o lanzallamas pesado) y arma a distancia (lanzallamas pesado acoplado, bólter pesado acoplado, cañón de fusión, plasma, asalto, láser acoplado y cañón automático acoplado). Desaparece la opción «Venerable» (+20).
+- **Dreadnought Venerable** (nueva, Élite): entrada propia por tener un perfil distinto (HA 5 y HP 5), copia la de ME: base 165 y mismas opciones que el Dreadnought, con el brazo y el arma a distancia de ME.
+- Las armas y el equipo que ya existían en AO (cañones, lanzallamas, lanzamisiles, blindaje, bólter de asalto) se reutilizan; se añaden las entradas de ME que AO no tenía (cápsula de desembarco de ME con su perfil y reglas, baliza localizadora y grupos asociados).
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
