@@ -4954,7 +4954,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
               <entryLinks>
                 <entryLink name="Lanzamisiles Tifón" id="092f-2a33-2011-b9a9" collective="false" hidden="false" import="true" sortIndex="2" targetId="ca646e87-0f2f-4b69-ace0-4ab09e540470" type="selectionEntry">
                   <constraints>
-                    <constraint id="001f-10df-9f5a-ad5c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1ee5-df52-2b67-44c5" shared="true" type="max" value="1"/>
+                    <constraint id="001f-10df-9f5a-ad5c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="puntos" value="40"/>
@@ -4964,7 +4964,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
               <selectionEntries>
                 <selectionEntry name="Modelo Tornado" id="6f36-e505-e455-393d" collective="false" hidden="false" import="true" sortIndex="1" type="upgrade">
                   <constraints>
-                    <constraint id="918f-8755-c3bb-73a4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1ee5-df52-2b67-44c5" shared="true" type="max" value="1"/>
+                    <constraint id="918f-8755-c3bb-73a4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="puntos" value="0"/>

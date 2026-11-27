@@ -100,7 +100,7 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Arma principal:** bólter pesado por defecto, lanzallamas pesado +0 (nuevo) y cañón de fusión +0 → **+10**.
 - **Lanzamisiles Tifón:** +10 → **+40**.
 - **Modelo Tornado:** sus armas se amplían a las de ME, con sus costes: bólter pesado +10 (nuevo, por defecto), lanzallamas pesado +10, cañón de fusión +20 (nuevo) y cañón de asalto +35 → **+40**.
-- Se mantiene el límite de AO de un Tifón y un Tornado por escuadrón (ME no lo tiene) y no se añade «Despliegue Rápido» al Land Speeder.
+- **Sin límite por escuadrón:** como en ME, cualquier Land Speeder puede llevar una mejora (Tifón o Tornado); se elimina el límite de AO de un Tifón y un Tornado por unidad. No se añade «Despliegue Rápido» al Land Speeder.
 
 ### Sistema de juego propio (2026-11-27)
 
