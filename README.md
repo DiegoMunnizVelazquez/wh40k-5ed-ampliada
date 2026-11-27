@@ -124,7 +124,7 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Land Raider, Land Raider Cruzado, Predator, Vindicator y Whirlwind** (modificados): el grupo de equipo opcional pasa a ser el de ME. El **misil cazador asesino baja de +15 a +10** y el «bólter de asalto en afuste exterior» (+5) se sustituye por el **bólter de asalto (+10)** de ME. El blindaje adicional (+15) y la pala excavadora (+5, solo en Predator, Vindicator y Whirlwind) no cambian.
 - **Vindicator** 125 → **115** pts, como en ME. El **Predator** se queda en 70 pts.
 - **Vindicator y Predator:** ganan un **bólter de asalto adicional** (+10) además del que llevan de serie (el Predator lo lleva ahora de serie). El Vindicator gana además el **escudo de asedio** (+10).
-- **Land Raider:** capacidad **10 → 12** miniaturas (las de armadura de exterminador siguen contando como dos; el Cruzado ya tenía 16) y **cañón de fusión opcional (+10)**. El Land Raider Cruzado ya lleva un cañón de fusión de serie, así que no se le añade otro.
+- **Land Raider y Land Raider Cruzado:** **cañón de fusión opcional (+10)**, como en ME. El Cruzado ya no lo lleva de serie. El Land Raider pasa de capacidad **10 → 12** miniaturas (las de armadura de exterminador siguen contando como dos; el Cruzado ya tenía 16).
 - **Armas sin tocar:** se mantienen los costes de las armas de AO (cañón láser acoplado del Predator +35, etc.).
 - No se añade el Hermano-Sargento Chronus de ME.
 

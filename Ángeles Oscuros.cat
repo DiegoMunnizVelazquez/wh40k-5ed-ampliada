@@ -5776,31 +5776,25 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="fbba6be3-f937-43a8-895f-4212957039b8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Cañón de fusión" id="41d6948a-eece-4ecf-ac44-e82ff48217ac" collective="false" hidden="false" import="true" sortIndex="2" targetId="43d9a11c-1223-44b2-a6f7-4b7000e4cf51" type="selectionEntry">
-          <constraints>
-            <constraint id="a43deeb4-651f-427a-9e14-f26819ab3c78" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="ecf9910a-7f4d-4c96-923c-2e0952504849" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-        <entryLink name="Bólter huracán" id="e527c135-3168-4202-bd8d-469b7b49c24c" collective="false" hidden="false" import="true" sortIndex="3" targetId="c15fb49a-42eb-4b9d-aada-77d5ce2e22c8" type="selectionEntry">
+        <entryLink name="Bólter huracán" id="e527c135-3168-4202-bd8d-469b7b49c24c" collective="false" hidden="false" import="true" sortIndex="2" targetId="c15fb49a-42eb-4b9d-aada-77d5ce2e22c8" type="selectionEntry">
           <constraints>
             <constraint id="5f004a34-85ea-4316-943f-b3de3c526689" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
             <constraint id="91d1e60e-3a6d-449c-b608-54ea39ab219c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
           </constraints>
         </entryLink>
-        <entryLink name="Descargadores de metralla" id="7683d628-f2e1-4606-9ff1-ece885b5d0e4" collective="false" hidden="false" import="true" sortIndex="4" targetId="7f1dee53-ff45-4661-b2e5-fde8539417db" type="selectionEntry">
+        <entryLink name="Descargadores de metralla" id="7683d628-f2e1-4606-9ff1-ece885b5d0e4" collective="false" hidden="false" import="true" sortIndex="3" targetId="7f1dee53-ff45-4661-b2e5-fde8539417db" type="selectionEntry">
           <constraints>
             <constraint id="9b9f477b-9138-4ba8-a655-59109c8b2efb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="0102dcdb-7bec-47fd-b073-5315ac1a3677" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Descargadores de humo" id="8c879c5d-d5f3-4c15-be3b-9c1bbffcafa8" collective="false" hidden="false" import="true" sortIndex="5" targetId="236b-e147-1f64-7edc" type="selectionEntry">
+        <entryLink name="Descargadores de humo" id="8c879c5d-d5f3-4c15-be3b-9c1bbffcafa8" collective="false" hidden="false" import="true" sortIndex="4" targetId="236b-e147-1f64-7edc" type="selectionEntry">
           <constraints>
             <constraint id="8f94c5f8-708c-4377-a3aa-4ee6f3061b25" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="9444f3b0-fd8e-4ccf-b374-e6f08541e6fd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Reflector" id="c8d47279-5582-400a-ac99-cdac338d9a70" collective="false" hidden="false" import="true" sortIndex="6" targetId="c1ac-63b0-b525-40b4" type="selectionEntry">
+        <entryLink name="Reflector" id="c8d47279-5582-400a-ac99-cdac338d9a70" collective="false" hidden="false" import="true" sortIndex="5" targetId="c1ac-63b0-b525-40b4" type="selectionEntry">
           <constraints>
             <constraint id="e09dfd2c-fb69-492e-911c-57581f97313e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="a27b5898-60c5-46d6-bcf4-3c8053a7bc67" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -5836,7 +5830,15 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <cost name="Pts" typeId="puntos" value="10"/>
               </costs>
             </entryLink>
-            <entryLink name="Misil cazador asesino" id="13e0604b-9f5c-4a23-9a52-a6ec5af90e23" collective="false" hidden="false" import="true" sortIndex="2" targetId="f4a3-48a3-bdaf-c717" type="selectionEntry">
+            <entryLink name="Cañón de fusión" id="4068019e-b16a-4d21-8109-74dfd88314d8" collective="false" hidden="false" import="true" sortIndex="2" targetId="43d9a11c-1223-44b2-a6f7-4b7000e4cf51" type="selectionEntry">
+              <constraints>
+                <constraint id="dec3dc15-f981-44df-9f4e-6651b28a10b3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="puntos" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Misil cazador asesino" id="13e0604b-9f5c-4a23-9a52-a6ec5af90e23" collective="false" hidden="false" import="true" sortIndex="3" targetId="f4a3-48a3-bdaf-c717" type="selectionEntry">
               <constraints>
                 <constraint id="61255d10-5273-43cd-9644-8b85227ad156" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -5844,7 +5846,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <cost name="Pts" typeId="puntos" value="10"/>
               </costs>
             </entryLink>
-            <entryLink name="Blindaje adicional" id="f3dc5853-9aa3-4706-a7a6-cc661c05c7cc" collective="false" hidden="false" import="true" sortIndex="3" targetId="9694-1ee2-7ee4-b8ee" type="selectionEntry">
+            <entryLink name="Blindaje adicional" id="f3dc5853-9aa3-4706-a7a6-cc661c05c7cc" collective="false" hidden="false" import="true" sortIndex="4" targetId="9694-1ee2-7ee4-b8ee" type="selectionEntry">
               <constraints>
                 <constraint id="2cddea87-8a39-4bc1-9adb-a8dd42a51404" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
