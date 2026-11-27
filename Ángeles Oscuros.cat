@@ -5170,7 +5170,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         </selectionEntry>
         <selectionEntry name="Motorista del Ala de Cuervo" id="27589033-ae13-408f-85e6-8f08ac088c68" collective="false" hidden="false" import="true" sortIndex="2" type="model">
           <constraints>
-            <constraint id="e0adeec3-bfdc-4218-b0b7-9612702c4f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
+            <constraint id="e0adeec3-bfdc-4218-b0b7-9612702c4f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="7"/>
             <constraint id="914d9b76-e354-4823-b036-5ace5c862c6b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
           </constraints>
           <costs>
@@ -5215,6 +5215,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <selectionEntry name="Arma especial (hasta dos por escuadrón)" id="fde3c344-7bf2-49cc-bbcb-5503dc5bf11c" collapsible="true" hidden="false" import="true" sortIndex="7" type="upgrade">
               <constraints>
                 <constraint id="42b9e4ec-d603-4231-996f-64e391d3b82e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="c6b3-ca3f-4057-ea4a" shared="true" type="max" value="2"/>
+                <constraint id="43ed554c-080c-4a56-b3b1-67f2244d6397" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name="Pts" typeId="puntos" value="0"/>
@@ -5256,24 +5257,6 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Arma de mano" id="71a6993e-8d8c-4247-a04a-cff4088b0f96" collapsible="true" collective="false" defaultSelectionEntryId="51f5af46-8e87-41cd-b0c0-1cc1250332b2" hidden="false" import="true" sortIndex="6">
-              <constraints>
-                <constraint id="2be4f203-133c-4d19-ab92-30cb511d1c7b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="5c94392d-4228-4c9f-89c0-61c360f016ea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <entryLinks>
-                <entryLink name="Pistola bólter" id="51f5af46-8e87-41cd-b0c0-1cc1250332b2" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="1" targetId="9dd14127-5e61-4f0d-820e-4d1d7930a698" type="selectionEntry">
-                  <constraints>
-                    <constraint id="36247c6c-bbac-4c2d-9a78-872c8c2591f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Espada sierra" id="d0783f16-a89f-47d0-91ee-8b0654b5c49d" collective="false" hidden="false" import="true" sortIndex="2" targetId="160f9149-5ca1-556d-a844-0f6f1b5ab9ce" type="selectionEntry">
-                  <constraints>
-                    <constraint id="56538303-60a7-4317-bf75-b1de031dd9af" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
               <selectionEntryGroup name="Apotecario o portaestandarte" id="e4211b29-6013-403c-9eee-1edb15d94b96" collapsible="true" collective="false" hidden="false" import="true" sortIndex="8">
                 <constraints>
                   <constraint id="fe747f75-4d1b-48d1-aa5d-06df01601043" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
@@ -5510,7 +5493,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         </selectionEntry>
         <selectionEntry name="Motorista del Ala de Cuervo" id="289d795b-8171-4065-a0d5-12d9cc7530de" collective="false" hidden="false" import="true" sortIndex="2" type="model">
           <constraints>
-            <constraint id="24dca2e6-639f-45c4-a5a3-716924a93249" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="5"/>
+            <constraint id="24dca2e6-639f-45c4-a5a3-716924a93249" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="7"/>
             <constraint id="2a76d902-6c50-49e9-a4ae-097c947d118c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="2"/>
           </constraints>
           <costs>
@@ -5555,6 +5538,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <selectionEntry name="Arma especial (hasta dos por escuadrón)" id="6520cb67-4d07-49a5-8bf4-469a825ee87c" collapsible="true" hidden="false" import="true" sortIndex="7" type="upgrade">
               <constraints>
                 <constraint id="cba41385-c9a5-49c7-b91e-412015b123aa" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="fbca-56e9-f6fd-00af" shared="true" type="max" value="2"/>
+                <constraint id="74a5c696-e05b-4f80-b13c-988f25fb2aa9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name="Pts" typeId="puntos" value="0"/>
@@ -5596,24 +5580,6 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Arma de mano" id="80341b76-6cdd-4afd-916a-392b1bcce272" collapsible="true" collective="false" defaultSelectionEntryId="5a9fea30-59fb-4b3e-a379-0d6d1fc1a079" hidden="false" import="true" sortIndex="6">
-              <constraints>
-                <constraint id="4975cda7-37cf-47b0-aeea-e517e1094fdc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="6c380df3-4c90-4683-b86c-c286bbd92238" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <entryLinks>
-                <entryLink name="Pistola bólter" id="5a9fea30-59fb-4b3e-a379-0d6d1fc1a079" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="1" targetId="9dd14127-5e61-4f0d-820e-4d1d7930a698" type="selectionEntry">
-                  <constraints>
-                    <constraint id="7947c2ac-430e-4736-b07b-3bb24fa11102" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-                <entryLink name="Espada sierra" id="366db1e8-ca10-4152-b392-53240462018b" collective="false" hidden="false" import="true" sortIndex="2" targetId="160f9149-5ca1-556d-a844-0f6f1b5ab9ce" type="selectionEntry">
-                  <constraints>
-                    <constraint id="a6a1ef38-f1f3-493e-a686-e3fd4de5c5c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
               <selectionEntryGroup name="Apotecario o portaestandarte" id="a991171c-ae83-4a7c-87fb-9bc92fc6a1e5" collapsible="true" collective="false" hidden="false" import="true" sortIndex="8">
                 <constraints>
                   <constraint id="4169365c-8426-4558-8e68-7aa0156222bf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>

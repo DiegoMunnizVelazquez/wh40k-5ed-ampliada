@@ -105,7 +105,8 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 ### Ángeles Oscuros — Escuadrón de Ataque del Ala de Cuervo con los costes de las motocicletas de ME (revisión 2)
 
 - **Escuadrón de Ataque del Ala de Cuervo** (modificado, Ataque Rápido; también su copia de Línea): sin coste base, como el Escuadrón de Motocicletas de ME. Antes costaba 120 pts fijos por el sargento y dos motoristas; ahora el **Sargento del Ala de Cuervo cuesta +40** y cada **Motorista +25**, así que el mínimo baja de 120 a **90** pts.
-- **Motoristas:** de 2 a 5 en un único bloque. Desaparece la opción «Tres Motoristas del Ala de Cuervo adicionales (+100)», que queda cubierta por el máximo de 5.
+- **Motoristas:** de 2 a **7** en un único bloque, como los marines motorizados de ME (unidades de hasta 8 con el sargento). Desaparece la opción «Tres Motoristas del Ala de Cuervo adicionales (+100)».
+- **Armas de los motoristas:** solo pueden llevar el **arma especial** (lanzallamas +5, rifle de fusión +10 o rifle de plasma +15), **una por moto** y hasta dos por escuadrón. Se eliminan las opciones de pistola bólter y espada sierra.
 - **Motocicleta de Ataque:** +50 → **+40**, y el cañón de fusión +0 → **+10**.
 - **Sargento:** combifusión, combilanzallamas y combiplasma a **+10** (nuevas) en su ranura de pistola. Mantiene la espada sierra, el arma de energía de AO, la baliza de teleportación y las bombas de fusión.
 - **Land Speeder (a partir de 6 miniaturas):** +100 → **+50**.
