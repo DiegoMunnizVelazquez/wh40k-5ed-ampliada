@@ -102,6 +102,15 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Modelo Tornado:** sus armas se amplían a las de ME, con sus costes: bólter pesado +10 (nuevo, por defecto), lanzallamas pesado +10, cañón de fusión +20 (nuevo) y cañón de asalto +35 → **+40**.
 - **Sin límite por escuadrón:** como en ME, cualquier Land Speeder puede llevar una mejora (Tifón o Tornado); se elimina el límite de AO de un Tifón y un Tornado por unidad. Se añade la regla **«Despliegue Rápido»** al Land Speeder, como en ME.
 
+### Ángeles Oscuros — Escuadrón de Ataque del Ala de Cuervo con los costes de las motocicletas de ME (revisión 2)
+
+- **Escuadrón de Ataque del Ala de Cuervo** (modificado, Ataque Rápido; también su copia de Línea): sin coste base, como el Escuadrón de Motocicletas de ME. Antes costaba 120 pts fijos por el sargento y dos motoristas; ahora el **Sargento del Ala de Cuervo cuesta +40** y cada **Motorista +25**, así que el mínimo baja de 120 a **90** pts.
+- **Motoristas:** de 2 a 5 en un único bloque. Desaparece la opción «Tres Motoristas del Ala de Cuervo adicionales (+100)», que queda cubierta por el máximo de 5.
+- **Motocicleta de Ataque:** +50 → **+40**, y el cañón de fusión +0 → **+10**.
+- **Sargento:** combifusión, combilanzallamas y combiplasma a **+10** (nuevas) en su ranura de pistola. Mantiene la espada sierra, el arma de energía de AO, la baliza de teleportación y las bombas de fusión.
+- **Land Speeder (a partir de 6 miniaturas):** +100 → **+50**.
+- Se conservan las opciones propias de AO: Apotecario (+15), Estandarte del Ala de Cuervo (+25) y baliza de teleportación.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
