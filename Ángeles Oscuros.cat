@@ -4918,6 +4918,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <cost name="Pts" typeId="puntos" value="50"/>
           </costs>
           <infoLinks>
+            <infoLink name="Despliegue Rápido" id="a207e971-656d-4da5-8205-5a4a3a7fbc8f" hidden="false" targetId="e73e-593a-922e-a47a" type="rule"/>
             <infoLink name="Land Speeder" id="e630-d272-8bd2-4343" hidden="false" targetId="9035-9efe-a190-4a12" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
