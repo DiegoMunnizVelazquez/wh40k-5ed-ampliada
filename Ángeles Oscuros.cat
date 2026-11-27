@@ -372,18 +372,6 @@ Si el resultado es 5+, un resultado de arma destruida o de inmovilizado (elige e
         <characteristic name="Tipo" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Vehículo (Bípode)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Cápsula de Desembarco" id="8b5c-bb8b-677b-474a" hidden="false" page="35" publicationId="822e-763d-4a6a-b7fc" typeId="d12a-b581-e1f4-1193" typeName="Transporte">
-      <characteristics>
-        <characteristic name="HP" typeId="eeb7-edf8-2c77-59b6">2</characteristic>
-        <characteristic name="Frontal" typeId="584e-15ce-949b-e298">12</characteristic>
-        <characteristic name="Lateral" typeId="27a5-c15e-f5b6-9c11">12</characteristic>
-        <characteristic name="Posterior" typeId="e7fb-2121-c86d-7a50">12</characteristic>
-        <characteristic name="Tipo" typeId="f141-fc34-4d2a-b484">Vehículo (Descubierto)</characteristic>
-        <characteristic name="Capacidad" typeId="f90f-9546-155f-c585">10 Miniaturas (las miniaturas con armadura de exterminador cuentan como dos), puede transportar un Dreadnought (cuenta como diez miniaturas)</characteristic>
-        <characteristic name="Puntos de acceso" typeId="8cb4-5303-693b-0256">Se considera un Vehículo Descubierto al desplegarse, no se puede volver a embarcar una vez desplegada</characteristic>
-        <characteristic name="Puntos de disparo" typeId="85c0-7904-8bac-a359">Se considera un Vehículo Descubierto al desplegarse</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Razorback" id="86d0-902f-1658-419d" hidden="false" page="32" publicationId="822e-763d-4a6a-b7fc" typeId="d12a-b581-e1f4-1193" typeName="Transporte">
       <characteristics>
         <characteristic name="HP" typeId="eeb7-edf8-2c77-59b6">4</characteristic>
@@ -2407,7 +2395,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
             <constraint id="d0f2beec-d432-4d61-846d-2eac62917827" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Rhino" id="59b5-e5ed-99b6-4925" collective="false" hidden="false" import="true" sortIndex="1" targetId="0202-4778-e9ff-439e" type="selectionEntry">
+            <entryLink name="Rhino" id="59b5-e5ed-99b6-4925" collective="false" hidden="false" import="true" sortIndex="2" targetId="0202-4778-e9ff-439e" type="selectionEntry">
               <constraints>
                 <constraint id="ec23-3207-df05-791d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -2417,7 +2405,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                 <constraint id="95d6-58be-5d0d-c494" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="7a2d-adfa-1e00-a0a4" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="7a2d-adfa-1e00-a0a4" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
               <constraints>
                 <constraint id="cb09-0f19-185d-042f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -2426,36 +2414,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Cápsula de Desembarco" id="846d-727b-93a4-4194" collective="false" hidden="false" import="true" type="unit">
-      <costs>
-        <cost name="Pts" typeId="puntos" value="50"/>
-      </costs>
-      <entryLinks>
-        <entryLink name="Bólter de asalto" id="f93b-f1ca-7f50-f873" collective="false" hidden="false" import="true" targetId="9f573c4c-5f06-4ba3-8a0a-f6b878b030ae" type="selectionEntry">
-          <constraints>
-            <constraint id="9af4-36d5-7e59-05e5-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="9af4-36d5-7e59-05e5-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <infoLinks>
-        <infoLink name="Cápsula de Desembarco" id="f157-cde8-5dd4-48f7" hidden="false" targetId="8b5c-bb8b-677b-474a" type="profile"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Sistema de guía inercial" id="83b1-b681-5c75-f0cd" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Equipo">
-          <characteristics>
-            <characteristic name="Descripción" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Las cápsulas de desembarco entran en juego de acuerdo con la regla especial despliegue rápido (consulta el reglamento de Warhammer 40,000); y
-siempre pueden entrar en juego de acuerdo con esta regla, incluso en misiones en las que su uso no esté normalmente permitido. Además, las cápsulas de desembarco disponen de sistemas de guía inercial para asegurar que aterrizan correctamente. Si una cápsula de desembarco se dispersa
-y aterriza en terreno infranqueable o sobre otra miniatura (ya sea amiga o enemiga), reduce la distancia obtenida en el dado lo necesario para evitar dicho obstáculo.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule name="Inmóvil" id="ece7-b21d-4172-c4e9" hidden="false">
-          <description>En cuanto entren en juego, las cápsulas de desembarco no podrán moverse y se considerarán a todos los efectos un vehículo que ha sufrido un resultado de inmovilizado en la Tabla de Daños en Vehículos (y que no puede ser reparado).</description>
-        </rule>
-      </rules>
-    </selectionEntry>
+
     <selectionEntry name="Cápsula de Desembarco" id="822d-f006-230d-66db" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="Pts" typeId="puntos" value="35"/>
@@ -2725,7 +2684,7 @@ y aterriza en terreno infranqueable o sobre otra miniatura (ya sea amiga o enem
                     <modifier field="puntos" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Cápsula de Desembarco" id="35e4-1f09-b7cf-46da" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+                <entryLink name="Cápsula de Desembarco" id="35e4-1f09-b7cf-46da" collective="false" hidden="false" import="true" sortIndex="2" targetId="822d-f006-230d-66db" type="selectionEntry">
                   <constraints>
                     <constraint id="df3c-aaea-1c09-448f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -2936,7 +2895,7 @@ y aterriza en terreno infranqueable o sobre otra miniatura (ya sea amiga o enem
             <constraint id="0eda66f0-0b88-4df1-b461-0fd88fe3e9d1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Rhino" id="6419-f55c-2b34-55ef" collective="false" hidden="false" import="true" sortIndex="1" targetId="0202-4778-e9ff-439e" type="selectionEntry">
+            <entryLink name="Rhino" id="6419-f55c-2b34-55ef" collective="false" hidden="false" import="true" sortIndex="2" targetId="0202-4778-e9ff-439e" type="selectionEntry">
               <constraints>
                 <constraint id="d005-17d4-ba45-c23f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -2946,7 +2905,7 @@ y aterriza en terreno infranqueable o sobre otra miniatura (ya sea amiga o enem
                 <constraint id="9d39-4d0b-479e-a4c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="8770-2161-dff3-a508" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="8770-2161-dff3-a508" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
               <constraints>
                 <constraint id="8cb0-948d-02d4-8198" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -2960,7 +2919,7 @@ y aterriza en terreno infranqueable o sobre otra miniatura (ya sea amiga o enem
         <cost name="Pts" typeId="puntos" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Cápsula de Desembarco" id="5869-0bd9-5804-a389" collective="false" hidden="false" import="true" sortIndex="3" targetId="846d-727b-93a4-4194" type="selectionEntry">
+        <entryLink name="Cápsula de Desembarco" id="5869-0bd9-5804-a389" collective="false" hidden="false" import="true" sortIndex="3" targetId="822d-f006-230d-66db" type="selectionEntry">
           <constraints>
             <constraint id="f3e0-9e05-8dd2-9f0d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -3909,7 +3868,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="ece2f448-1b00-4be7-87ca-dfb7c7352cf3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Rhino" id="8088-13eb-3e36-150d" collective="false" hidden="false" import="true" sortIndex="1" targetId="0202-4778-e9ff-439e" type="selectionEntry">
+            <entryLink name="Rhino" id="8088-13eb-3e36-150d" collective="false" hidden="false" import="true" sortIndex="2" targetId="0202-4778-e9ff-439e" type="selectionEntry">
               <constraints>
                 <constraint id="8c27-281e-5c77-9f8a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -3919,7 +3878,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <constraint id="7006-d467-e766-0050" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="8f61-49e4-7edb-b1ce" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="8f61-49e4-7edb-b1ce" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
               <constraints>
                 <constraint id="735a-b547-d80c-054b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -4834,7 +4793,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="05a8953a-ec18-45b1-b87f-d93e2ab5d27f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Rhino" id="b69d-9409-d75f-b635" collective="false" hidden="false" import="true" sortIndex="1" targetId="0202-4778-e9ff-439e" type="selectionEntry">
+            <entryLink name="Rhino" id="b69d-9409-d75f-b635" collective="false" hidden="false" import="true" sortIndex="2" targetId="0202-4778-e9ff-439e" type="selectionEntry">
               <constraints>
                 <constraint id="c4b2-85c5-3672-71eb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -4844,7 +4803,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <constraint id="6fde-3d6b-4ad4-4d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
               <constraints>
                 <constraint id="6b95-7207-ac08-237e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -6839,7 +6798,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         <constraint id="9551-f1d4-7af7-43c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Rhino" id="b1a6-c772-45a2-449c" collective="false" hidden="false" import="true" sortIndex="1" targetId="0202-4778-e9ff-439e" type="selectionEntry">
+        <entryLink name="Rhino" id="b1a6-c772-45a2-449c" collective="false" hidden="false" import="true" sortIndex="2" targetId="0202-4778-e9ff-439e" type="selectionEntry">
           <constraints>
             <constraint id="9bb1-51eb-9200-481e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -6849,7 +6808,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="a6d4-997f-e8a4-44f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Cápsula de Desembarco" id="f458-73ab-fb29-44c4" collective="false" hidden="false" import="true" sortIndex="2" targetId="846d-727b-93a4-4194" type="selectionEntry">
+        <entryLink name="Cápsula de Desembarco" id="f458-73ab-fb29-44c4" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
           <constraints>
             <constraint id="c0a3-e827-79a4-4479" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>

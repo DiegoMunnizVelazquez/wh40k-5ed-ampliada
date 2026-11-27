@@ -77,6 +77,7 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 
 - **Dreadnought** (modificada): base 125 → **105** y mismas opciones y costes que el Dreadnought de ME: cápsula de desembarco asignada (+35, con baliza localizadora y arma principal, y el perfil de transporte de ME), blindaje adicional, brazo cuerpo a cuerpo (cañón automático acoplado, lanzamisiles, arma de combate con bólter de asalto o lanzallamas pesado) y arma a distancia (lanzallamas pesado acoplado, bólter pesado acoplado, cañón de fusión, plasma, asalto, láser acoplado y cañón automático acoplado). Desaparece la opción «Venerable» (+20).
 - **Dreadnought Venerable** (nueva, Élite): entrada propia por tener un perfil distinto (HA 5 y HP 5), copia la de ME: base 165 y mismas opciones que el Dreadnought, con el brazo y el arma a distancia de ME.
+- **Cápsula de desembarco única:** todas las unidades de AO que la llevan (Dreadnought, Veteranos, Escuadra Táctica, Asalto, Devastadores y Mando) usan ahora la de ME: +35 pts, baliza localizadora (+10), arma principal (bólter de asalto o lanzamisiles viento de muerte +20), HP 4 y capacidad 12. Se elimina la cápsula propia de AO (+50, HP 2, capacidad 10). El orden de los transportes asignados queda Cápsula, Rhino y Razorback.
 - Las armas y el equipo que ya existían en AO (cañones, lanzallamas, lanzamisiles, blindaje, bólter de asalto) se reutilizan; se añaden las entradas de ME que AO no tenía (cápsula de desembarco de ME con su perfil y reglas, baliza localizadora y grupos asociados).
 
 ### Sistema de juego propio (2026-11-27)
