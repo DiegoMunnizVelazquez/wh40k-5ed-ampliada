@@ -87,6 +87,13 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Transportes:** la cápsula de desembarco solo se ofrece con diez marines, como en ME. El **Razorback pasa de +50 a +40** (como en ME) en todas las unidades que lo llevan, porque es una entrada compartida.
 - No se añade la regla «Tácticas de Combate», que en ME es propia del codex y no existe en AO.
 
+### Ángeles Oscuros — Escuadra de Asalto igual a la de Marines Espaciales (revisión 2)
+
+- **Escuadra de Asalto** (modificada, Ataque Rápido): misma estructura y costes que la de ME. Marine Espacial de Asalto +22 → **+18**, Sargento +37 → **+28** y escudo de combate del sargento +10 → **+5** (el mínimo baja de 125 a **100** pts).
+- **Sargento:** un único grupo de armas (dos a elegir, espada sierra y pistola bólter por defecto) con cuchilla relámpago +15, escudo de tormenta +15, arma de energía +15, pistola de plasma +15, puño de combate +25 y martillo de trueno +30. Mantiene el arma de energía de AO en lugar de la espada de energía de ME.
+- **Marines:** arma especial **una por cada cinco miniaturas** (en lugar de un máximo fijo de dos pistolas de plasma): lanzallamas +10, pistola de plasma +15 y, **nuevo, rifle de plasma +15**.
+- Conserva la regla «Despliegue Rápido» de AO y no añade «Tácticas de Combate» (propia del codex de ME).
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
