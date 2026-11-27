@@ -28,7 +28,7 @@ Contenido idéntico al de `wh40k-5ed` al crear el repositorio. La columna *revis
 | Catálogo | Revisión | Unidades |
 |---|---|---|
 | Sistema de juego (`.gst`) | 1 | — |
-| Ángeles Oscuros | 1 | 27 |
+| Ángeles Oscuros | 2 | 27 |
 | Ángeles Sangrientos | 1 | 35 |
 | Caballeros Grises | 1 | 31 |
 | Demonios del Caos | 1 | 30 |
@@ -61,3 +61,13 @@ Cada cambio se anota aquí con la fecha, el catálogo y las unidades **nuevas** 
 - Los catálogos y el sistema de juego vuelven a ser **idénticos a los de `wh40k-5ed`** en su estado actual (incluidas sus últimas correcciones y la revisión de Ángeles Oscuros), porque aquí aún no se ha modificado ni creado ninguna unidad.
 - Las revisiones se mantienen en **1** (`revision` y `gameSystemRevision`): la numeración propia de este repositorio no avanza hasta que haya cambios propios.
 - El catálogo `Ángeles Oscuros` se llama ahora así (con tilde), igual que en `wh40k-5ed`; sustituye a `Angeles Oscuros.cat`.
+
+### Ángeles Oscuros — equipo de CG alineado con Marines Espaciales (revisión 2)
+
+Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Capellán y el Capellán Interrogador tomados de sus equivalentes de `Marines Espaciales` (Capitán, Bibliotecario y Capellán). Los personajes con nombre (Azrael, Ezekiel, Belial, Sammael) no cambian.
+
+- **Señor de la Compañía** (modificada): mismo equipo que el Capitán de ME (grupo Armadura con servoarmadura y armadura de exterminador, dos armas a elegir, retrorreactor o moto) y sus costes. Se excluyen arma reliquia, armadura artesanal, armas digitales, munición infierno y lanzagranadas auxiliar. Conserva el *par de cuchillas relámpago* (+30), propio de AO.
+- **Bibliotecario** (modificada): coste base 120 → **100**; grupo Armadura, Epistolario (+50) y costes iguales a los del Bibliotecario de ME. Se mantienen sus poderes psíquicos, la capucha y el arma psíquica de AO. Desaparecen las bombas de fusión, que ME no ofrece.
+- **Capellán Interrogador** (modificada): mismas opciones y costes que el Capellán de ME, con armadura de exterminador (+30) y armas digitales (+10). Base sin cambios (120).
+- **Capellán** (modificada, solo costes): puño de combate +25 → +15, combifusión, combilanzallamas y combiplasma +10 → +15, bólter de asalto +5 → +3, retrorreactor +20 → +15, moto +30 → +35. No puede llevar armadura de exterminador ni armas digitales.
+- Límite conocido: el *par de cuchillas relámpago* cuenta como una sola arma del grupo de dos armas, aunque ocupa las dos manos.
