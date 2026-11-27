@@ -94,6 +94,14 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Marines:** arma especial **una por cada cinco miniaturas** (en lugar de un máximo fijo de dos pistolas de plasma): lanzallamas +10, pistola de plasma +15 y, **nuevo, rifle de plasma +15**.
 - Conserva la regla «Despliegue Rápido» de AO y no añade «Tácticas de Combate» (propia del codex de ME).
 
+### Ángeles Oscuros — Escuadrón de Apoyo del Ala de Cuervo con los costes de los Land Speeders de ME (revisión 2)
+
+- **Escuadrón de Apoyo del Ala de Cuervo** (modificado, Ataque Rápido): costes y opciones de armas como el Escuadrón de Land Speeders de ME, **manteniendo hasta 5 Land Speeders** por unidad (en ME son 3). Land Speeder +65 → **+50** (mínimo 65 → 50 pts).
+- **Arma principal:** bólter pesado por defecto, lanzallamas pesado +0 (nuevo) y cañón de fusión +0 → **+10**.
+- **Lanzamisiles Tifón:** +10 → **+40**.
+- **Modelo Tornado:** sus armas se amplían a las de ME, con sus costes: bólter pesado +10 (nuevo, por defecto), lanzallamas pesado +10, cañón de fusión +20 (nuevo) y cañón de asalto +35 → **+40**.
+- Se mantiene el límite de AO de un Tifón y un Tornado por escuadrón (ME no lo tiene) y no se añade «Despliegue Rápido» al Land Speeder.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.

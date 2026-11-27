@@ -4915,7 +4915,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="8ae8-8b9a-b452-401f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         <costs>
-            <cost name="Pts" typeId="puntos" value="65"/>
+            <cost name="Pts" typeId="puntos" value="50"/>
           </costs>
           <infoLinks>
             <infoLink name="Land Speeder" id="e630-d272-8bd2-4343" hidden="false" targetId="9035-9efe-a190-4a12" type="profile"/>
@@ -4932,10 +4932,18 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                     <constraint id="e59c-f087-8a58-8eda" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                 </entryLink>
-                <entryLink name="Cañón de Fusión" id="5fad-a0b1-4976-6728" collective="false" hidden="false" import="true" sortIndex="2" targetId="9758-cbac-e24a-48bd" type="selectionEntry">
+                <entryLink name="Lanzallamas Pesado" id="1f1b0ed2-64d0-48d4-874d-7eeae0797818" collective="false" hidden="false" import="true" sortIndex="2" targetId="28b6-b8bb-2a54-4d8d" type="selectionEntry">
                   <constraints>
-                    <constraint id="adce-cdcd-abe8-f767" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="edffff34-4ccf-4f9a-8587-df84d73795eb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
+                </entryLink>
+                <entryLink name="Cañón de Fusión" id="5fad-a0b1-4976-6728" collective="false" hidden="false" import="true" sortIndex="3" targetId="9758-cbac-e24a-48bd" type="selectionEntry">
+                  <constraints>
+                    <constraint id="d812873e-7db7-4351-ab55-10b80a4d811b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="puntos" value="10"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -4949,7 +4957,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                     <constraint id="001f-10df-9f5a-ad5c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1ee5-df52-2b67-44c5" shared="true" type="max" value="1"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="puntos" value="10"/>
+                    <cost name="Pts" typeId="puntos" value="40"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -4962,26 +4970,42 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                     <cost name="Pts" typeId="puntos" value="0"/>
                   </costs>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Modelo Tornado" id="a871-16ab-465c-b6b4" collective="false" defaultSelectionEntryId="7058-7f56-b6ca-7191" hidden="false" import="true">
+                    <selectionEntryGroup name="Modelo Tornado" id="a871-16ab-465c-b6b4" collective="false" defaultSelectionEntryId="af15f9ba-cb10-4c3f-b364-5870d02901e9" hidden="false" import="true">
                       <constraints>
                         <constraint id="712a-cb2c-daad-c92a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                         <constraint id="d222-d9c0-967b-d552" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink name="Lanzallamas Pesado" id="7058-7f56-b6ca-7191" collective="false" hidden="false" import="true" sortIndex="1" targetId="28b6-b8bb-2a54-4d8d" type="selectionEntry">
+                        <entryLink name="Bólter pesado" id="af15f9ba-cb10-4c3f-b364-5870d02901e9" collective="false" hidden="false" import="true" sortIndex="1" targetId="f01e-7aa5-e6e2-4eaa" type="selectionEntry">
                           <constraints>
-                            <constraint id="584c-c66b-5462-a768" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                            <constraint id="65c48130-a4ac-4cbb-a8a0-d476c775a8db" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                           <costs>
                             <cost name="Pts" typeId="puntos" value="10"/>
                           </costs>
                         </entryLink>
-                        <entryLink name="Cañón de Asalto" id="4daa-8705-a70a-2b50" collective="false" hidden="false" import="true" sortIndex="2" targetId="5ca7-f22e-0a43-49b8" type="selectionEntry">
+                        <entryLink name="Lanzallamas Pesado" id="7058-7f56-b6ca-7191" collective="false" hidden="false" import="true" sortIndex="2" targetId="28b6-b8bb-2a54-4d8d" type="selectionEntry">
                           <constraints>
-                            <constraint id="3de7-61b2-628a-7b0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                            <constraint id="0016eb2c-5dbe-42bf-9f34-767c7b58c62f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                           <costs>
-                            <cost name="Pts" typeId="puntos" value="35"/>
+                            <cost name="Pts" typeId="puntos" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink name="Cañón de Fusión" id="01efa3ff-3773-40bb-ae02-d4d26f3a0bb4" collective="false" hidden="false" import="true" sortIndex="3" targetId="9758-cbac-e24a-48bd" type="selectionEntry">
+                          <constraints>
+                            <constraint id="6725e6d1-f436-422b-8787-9226eb3e800b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="puntos" value="20"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink name="Cañón de Asalto" id="4daa-8705-a70a-2b50" collective="false" hidden="false" import="true" sortIndex="4" targetId="5ca7-f22e-0a43-49b8" type="selectionEntry">
+                          <constraints>
+                            <constraint id="3e8fa000-0186-43b7-9a99-c9e14af2b44c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="puntos" value="40"/>
                           </costs>
                         </entryLink>
                       </entryLinks>
