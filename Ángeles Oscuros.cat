@@ -4627,7 +4627,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                     <cost name="Pts" typeId="puntos" value="10"/>
                   </costs>
                 </entryLink>
-                <entryLink name="Espada de energía" id="16ee797d-25ef-444a-b13b-1dd1566b3a55" collective="false" hidden="false" import="true" sortIndex="8" targetId="cf3b96e8-75ca-5023-be48-1ec62c281a2a" type="selectionEntry">
+                <entryLink name="Arma de energía" id="16ee797d-25ef-444a-b13b-1dd1566b3a55" collective="false" hidden="false" import="true" sortIndex="8" targetId="0ba61da8-e509-4e6b-a89d-8e7199a2ed64" type="selectionEntry">
                   <constraints>
                     <constraint id="1a0dbd50-03f4-44e1-8903-53be849cad9d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
