@@ -8,18 +8,18 @@ Parte de una copia exacta del repositorio [wh40k-5ed](https://github.com/DiegoMu
 
 | Fichero | Para qué sirve |
 |---|---|
-| `Warhammer 40,000 5ª Edición.gst` | Sistema de juego (reglas, categorías, perfiles y reglas comunes). Es necesario para cargar cualquier catálogo. |
+| `Warhammer 40,000 5ª Edición Ampliada.gst` | Sistema de juego (reglas, categorías, perfiles y reglas comunes). Es necesario para cargar cualquier catálogo. |
 | `*.cat` | Un catálogo por ejército. |
 | `README.md` | Esta guía y el registro de cambios. |
 
 ## Cómo usarlo
 
-Hacen falta **el `.gst` y los `.cat` juntos**: los catálogos dependen del sistema de juego (`gameSystemId` `8cf6-c83d-3eeb-e95c`).
+Hacen falta **el `.gst` y los `.cat` juntos**: los catálogos dependen del sistema de juego (`gameSystemId` `310af520-2d8e-4c1d-b969-d49b4f3ad0f9`).
 
 - Cargar este repositorio de GitHub como fuente de datos en NewRecruit / BattleScribe, o
 - descargar el `.gst` y los `.cat` y añadirlos a la carpeta de datos de la aplicación.
 
-Este repositorio **no incluye el paquete `.bsr`**. Si usas también `wh40k-5ed`, no cargues ambos con el mismo sistema de juego a la vez: son versiones distintas del mismo sistema (mismo `gameSystemId`).
+Este repositorio **no incluye el paquete `.bsr`**. El sistema de juego tiene **nombre e identificador propios** («Warhammer 40,000 5ª Edición Ampliada»), distintos de los de `wh40k-5ed`, así que NewRecruit / BattleScribe los trata como sistemas independientes y se pueden tener cargados a la vez.
 
 ## Catálogos
 
@@ -71,3 +71,8 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Capellán Interrogador** (modificada): mismas opciones y costes que el Capellán de ME, con armadura de exterminador (+30) y armas digitales (+10). Base sin cambios (120).
 - **Capellán** (modificada, solo costes): puño de combate +25 → +15, combifusión, combilanzallamas y combiplasma +10 → +15, bólter de asalto +5 → +3, retrorreactor +20 → +15, moto +30 → +35. No puede llevar armadura de exterminador ni armas digitales.
 - Límite conocido: el *par de cuchillas relámpago* cuenta como una sola arma del grupo de dos armas, aunque ocupa las dos manos.
+
+### Sistema de juego propio (2026-11-27)
+
+- El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
+- Así el sistema no se confunde con el de `wh40k-5ed` (antes compartían el id `8cf6-c83d-3eeb-e95c`). El contenido de reglas y perfiles del sistema no cambia; las revisiones del `.gst` y de los catálogos no cambian por este motivo.
