@@ -1910,7 +1910,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="9251558a-d408-4233-9aec-9dcb0e48a1c4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Combilanzallamas" id="8c225578-1c7e-4d75-af36-aadb6c558dfa" collective="false" hidden="false" import="true" sortIndex="6" targetId="fb89-c4aa-05d9-1ae2" type="selectionEntry">
@@ -1918,7 +1918,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="424ac802-bcb0-4c23-bc02-5093a6bd4628" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Combiplasma" id="12ebd8b3-c650-473e-b913-dd89d048f91d" collective="false" hidden="false" import="true" sortIndex="7" targetId="4f22-ab20-9410-d4bf" type="selectionEntry">
@@ -1926,7 +1926,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="5c0775d2-c4f7-467d-baf7-886ad6483eef" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Cuchilla relámpago" id="f2afaa1f-1123-491f-9f11-69606c3b3559" collective="false" hidden="false" import="true" sortIndex="8" targetId="6f2e-7522-5965-4c73" type="selectionEntry">
