@@ -5057,17 +5057,10 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <constraint id="6fde-3d6b-4ad4-4d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="true" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
               <constraints>
                 <constraint id="6b95-7207-ac08-237e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditions>
-                    <condition childId="model" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="64e7-8b2d-54a2-4032" shared="true" type="atLeast" value="10"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
