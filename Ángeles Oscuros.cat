@@ -5720,7 +5720,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <characteristic name="Lateral" typeId="27a5-c15e-f5b6-9c11">14</characteristic>
             <characteristic name="Posterior" typeId="e7fb-2121-c86d-7a50">14</characteristic>
             <characteristic name="Tipo" typeId="f141-fc34-4d2a-b484">Tanque</characteristic>
-            <characteristic name="Capacidad" typeId="f90f-9546-155f-c585">10 Miniaturas (las miniaturas con armadura de exterminador cuentan como dos)</characteristic>
+            <characteristic name="Capacidad" typeId="f90f-9546-155f-c585">12 Miniaturas (las miniaturas con armadura de exterminador cuentan como dos)</characteristic>
             <characteristic name="Puntos de acceso" typeId="8cb4-5303-693b-0256">En cada lateral y al frente</characteristic>
             <characteristic name="Puntos de disparo" typeId="85c0-7904-8bac-a359">Ninguno</characteristic>
           </characteristics>
@@ -5737,7 +5737,15 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <cost name="Pts" typeId="puntos" value="10"/>
               </costs>
             </entryLink>
-            <entryLink name="Misil cazador asesino" id="bce4c7c5-2a58-4b0e-9be6-9c242f4f2aaf" collective="false" hidden="false" import="true" sortIndex="2" targetId="f4a3-48a3-bdaf-c717" type="selectionEntry">
+            <entryLink name="Cañón de fusión" id="126e14aa-31b6-483f-929a-d8bef6a1299e" collective="false" hidden="false" import="true" sortIndex="2" targetId="43d9a11c-1223-44b2-a6f7-4b7000e4cf51" type="selectionEntry">
+              <constraints>
+                <constraint id="9f1f26b1-3df2-4381-a951-84dce54e9d4d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="puntos" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Misil cazador asesino" id="bce4c7c5-2a58-4b0e-9be6-9c242f4f2aaf" collective="false" hidden="false" import="true" sortIndex="3" targetId="f4a3-48a3-bdaf-c717" type="selectionEntry">
               <constraints>
                 <constraint id="318d1ef2-fbdf-4a09-b950-6f0fc37a6a15" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -5745,7 +5753,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <cost name="Pts" typeId="puntos" value="10"/>
               </costs>
             </entryLink>
-            <entryLink name="Blindaje adicional" id="a40ca884-8a4c-4fd5-891b-5d21262e5380" collective="false" hidden="false" import="true" sortIndex="3" targetId="9694-1ee2-7ee4-b8ee" type="selectionEntry">
+            <entryLink name="Blindaje adicional" id="a40ca884-8a4c-4fd5-891b-5d21262e5380" collective="false" hidden="false" import="true" sortIndex="4" targetId="9694-1ee2-7ee4-b8ee" type="selectionEntry">
               <constraints>
                 <constraint id="5e131ed5-9871-4af4-8b5b-c11b581fa818" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -5850,7 +5858,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
     </selectionEntry>
     <selectionEntry name="Predator" id="6117-c587-df60-49a0" collective="false" hidden="false" import="true" page="78" publicationId="f176-f140-74d8-da7d" type="unit">
       <costs>
-        <cost name="Pts" typeId="puntos" value="60"/>
+        <cost name="Pts" typeId="puntos" value="70"/>
       </costs>
       <entryLinks>
         <entryLink name="Descargadores de humo" id="e52bbc58-f807-4f81-837f-f75bc9086dc9" collective="false" hidden="false" import="true" sortIndex="1" targetId="236b-e147-1f64-7edc" type="selectionEntry">
@@ -5863,6 +5871,12 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
           <constraints>
             <constraint id="ea1f6360-80cb-4388-b569-b12835b1d205" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="3a9f7a83-f291-416d-a97f-5e01c90c3700" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Bólter de asalto" id="a8868c9d-c684-4f6a-b098-99d7ca10256b" collective="false" hidden="false" import="true" sortIndex="3" targetId="9f573c4c-5f06-4ba3-8a0a-f6b878b030ae" type="selectionEntry">
+          <constraints>
+            <constraint id="a0793b88-8023-4eef-9de2-949b9a04f2ab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="3a676b9f-8027-423d-af0e-e56a77794ccb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -5880,7 +5894,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Arma de torreta" id="5b9a-6e22-b6c7-4feb" collective="false" defaultSelectionEntryId="9881-e693-fb3f-4bc8" hidden="false" import="true" sortIndex="3">
+        <selectionEntryGroup name="Arma de torreta" id="5b9a-6e22-b6c7-4feb" collective="false" defaultSelectionEntryId="9881-e693-fb3f-4bc8" hidden="false" import="true" sortIndex="4">
           <constraints>
             <constraint id="6530-8fb5-9d27-49d4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="24f3-eb08-18a1-46c4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
@@ -5897,7 +5911,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <entryLink name="Cañón Automático" id="9881-e693-fb3f-4bc8" collective="false" hidden="false" import="true" sortIndex="1" targetId="3774-c238-bf95-401a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Barquillas laterales" id="a80bbf85-b436-4de7-9157-12c3d65311c4" collapsible="true" collective="false" hidden="false" import="true" sortIndex="4">
+        <selectionEntryGroup name="Barquillas laterales" id="a80bbf85-b436-4de7-9157-12c3d65311c4" collapsible="true" collective="false" hidden="false" import="true" sortIndex="5">
           <constraints>
             <constraint id="3446aac1-6700-49d0-8687-6bd6cd87ad71" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
             <constraint id="dd7aef57-60c2-4049-aa91-d37b8115efaf" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -5937,7 +5951,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipo (cualquiera de los siguientes)" id="e11fd259-9ab0-4f2d-9aec-24b7519ec078" collapsible="true" collective="false" hidden="false" import="true" sortIndex="5">
+        <selectionEntryGroup name="Equipo (cualquiera de los siguientes)" id="e11fd259-9ab0-4f2d-9aec-24b7519ec078" collapsible="true" collective="false" hidden="false" import="true" sortIndex="6">
           <entryLinks>
             <entryLink name="Pala excavadora" id="cd6ef441-417d-425a-b26b-2c2747717961" collective="false" hidden="false" import="true" sortIndex="1" targetId="f2a9-ff54-43f1-b5a8" type="selectionEntry">
               <constraints>
@@ -5945,14 +5959,6 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
               </constraints>
               <costs>
                 <cost name="Pts" typeId="puntos" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink name="Bólter de asalto" id="12d94906-a080-4531-b8e2-2705f6611753" collective="false" hidden="false" import="true" sortIndex="2" targetId="9f573c4c-5f06-4ba3-8a0a-f6b878b030ae" type="selectionEntry">
-              <constraints>
-                <constraint id="9f1b90bf-3b64-4a6d-ac6e-0d315293aa02" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="Pts" typeId="puntos" value="10"/>
               </costs>
             </entryLink>
             <entryLink name="Misil cazador asesino" id="872546ab-2f49-4a02-b730-886a6840ac47" collective="false" hidden="false" import="true" sortIndex="3" targetId="f4a3-48a3-bdaf-c717" type="selectionEntry">
@@ -5972,6 +5978,19 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
               </costs>
             </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry name="Bólter de asalto adicional" id="94a21268-c4f7-4043-ba24-ac1eaf419eca" collapsible="true" hidden="false" import="true" sortIndex="2" type="upgrade">
+              <constraints>
+                <constraint id="168a33f5-40bd-42d7-ae37-6b05c4fbcfd4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="puntos" value="10"/>
+              </costs>
+              <infoLinks>
+                      <infoLink name="Bólter de Asalto" id="7898e91e-c1fe-41b1-aa78-21d50090370c" hidden="false" targetId="d495-caf7-3c41-4620" type="profile"/>
+                    </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
