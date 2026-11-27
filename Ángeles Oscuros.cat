@@ -203,11 +203,6 @@ En este sistema se agruparán las reglas del Codex de Ángeles Oscuros utilizado
         <characteristic name="Detalles" typeId="ad96-dfa4-b4ed-656d">Este poder confiere al bibliotecario un tipo especial de tirada de salvación invulnerable que se realiza como si fuera un chequeo psíquico en vez de como una tirada de salvación invulnerable normal. Cada vez que el bibliotecario sufra una herida podrá efectuar una tirada de salvación normal o utilizar este poder psiquico (una sola vez por turno). Si el bibliotecario decide utilizar el poder psíquico, tendrá que realizar un chequeo psíquico: si lo supera, habrá salvado la herida (como si hubiera superado una tirada de salvación invulnerable); si no lo supera, el bibliotecario resultará herido, como si hubiera fallado una tirada de salvación invulnerable. Los ataques que ignoran las tiradas de salvación invulnerables no pueden ser detenidos por el escudo de energía.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Letanías de Odio" id="b300-4169-50c5-4c93" hidden="false" page="37" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-      <characteristics>
-        <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">En el turno en el que asalta, un Capellán y todos los miembros de la escuadra a la que se ha unido pueden repetir las tiradas para impactar no superadas.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Marine Espacial" id="9bce-235c-c6f7-4b60" hidden="false" publicationId="822e-763d-4a6a-b7fc" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unidad">
       <characteristics>
         <characteristic name="Tipo" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantería</characteristic>
@@ -346,17 +341,6 @@ En este sistema se agruparán las reglas del Codex de Ángeles Oscuros utilizado
         <characteristic name="A" typeId="5dff3e7c-e024-4030-a71d-03195ec06ea7">2</characteristic>
         <characteristic name="L" typeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea">9</characteristic>
         <characteristic name="S" typeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Bendición del Omnissiah" id="6a50-e562-f425-4b18" hidden="false" page="31" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-      <characteristics>
-        <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">Si durante la fase de disparo un Tecnomarine está en contacto peana con peana con un vehiculo dañado, puede intentar repararlo en lugar de disparar. Tira 1D6 y suma los modificadores siguientes:
-
-Por cada Servidor con un servobrazo en la unidad +1
-
-Si el Tecnomarine tiene un servoarnés +1
-
-Si el resultado es 5+, un resultado de arma destruida o de inmovilizado (elige el propio jugador) será reparado. Si un resultado de arma destruida consigue repararse mediante este método, el arma podrá dispararse en la siguiente fase de disparo. El Tecnomarine no podrá reparar si está ¡Cuerpo a tierra! o en ¡Retirada!</characteristic>
       </characteristics>
     </profile>
     <profile name="Dreadnought" id="2215-e9a5-6330-4350" hidden="false" page="30" publicationId="822e-763d-4a6a-b7fc" typeId="3dadd2ff-33f1-41dd-85c7-bee5a7dfa413" typeName="Bípode">
@@ -535,6 +519,18 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
     <rule name="Asalto orbital" id="a5b3e45d-b460-410e-8112-93e92d8e2ce1" hidden="false">
       <description>Las cápsulas de desembarco entran en juego siguiendo las reglas de Despliegue rápido descritas en la sección de reglas especiales de misión del reglamento de Warhammer 40.000. Al inicio de tu primer turno, debes elegir a la mitad de tus cápsulas de desembarco (redondeando hacia arriba) para que efectúen un asalto orbital. Las unidades que efectúan el asalto orbital aparecen en el primer turno del jugador. El resto de cápsulas de desembarco del jugador se incorporarán a la partida siguiendo el procedimiento habitual. Una unidad que efectúe un asalto orbital con cápsulas de desembarco no podrá asaltar el turno en el que entra en juego.</description>
     </rule>
+    <rule name="Letanías de Odio" id="b300-4169-50c5-4c93" hidden="false" page="37" publicationId="822e-763d-4a6a-b7fc">
+      <description>En el turno en el que asalta, un Capellán y todos los miembros de la escuadra a la que se ha unido pueden repetir las tiradas para impactar no superadas.</description>
+    </rule>
+    <rule name="Bendición del Omnissiah" id="6a50-e562-f425-4b18" hidden="false" page="31" publicationId="822e-763d-4a6a-b7fc">
+      <description>Si durante la fase de disparo un Tecnomarine está en contacto peana con peana con un vehiculo dañado, puede intentar repararlo en lugar de disparar. Tira 1D6 y suma los modificadores siguientes:
+
+Por cada Servidor con un servobrazo en la unidad +1
+
+Si el Tecnomarine tiene un servoarnés +1
+
+Si el resultado es 5+, un resultado de arma destruida o de inmovilizado (elige el propio jugador) será reparado. Si un resultado de arma destruida consigue repararse mediante este método, el arma podrá dispararse en la siguiente fase de disparo. El Tecnomarine no podrá reparar si está ¡Cuerpo a tierra! o en ¡Retirada!</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry name="Azrael, Supremo Maestre" id="6bfc-bf4f-a005-4a5e" collective="false" hidden="false" import="true" page="46" publicationId="f176-f140-74d8-da7d" type="model">
@@ -629,13 +625,11 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
             <infoLink name="Energía" id="e6fd-00d9-8fb5-7208" hidden="false" targetId="2528-3f58-a823-5b4a" type="rule"/>
             <infoLink name="Armas de Precisión" id="d286-738c-ece3-844a" hidden="false" targetId="8f62-4549-a7d1-f500" type="profile"/>
           </infoLinks>
-          <profiles>
-            <profile name="Espada de los Secretos" id="4f5d-3bcb-cd9b-4fba" hidden="false" page="46" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-              <characteristics>
-                <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">Se trata de un arma de energía de precisión que también confiere Fuerza 6 a su portador en combate cuerpo a cuerpo.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
+          <rules>
+            <rule name="Espada de los Secretos" id="4f5d-3bcb-cd9b-4fba" hidden="false" page="46" publicationId="822e-763d-4a6a-b7fc">
+              <description>Se trata de un arma de energía de precisión que también confiere Fuerza 6 a su portador en combate cuerpo a cuerpo.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry name="Furia de Lión" id="0fc6-f2d4-3efb-a410" collective="false" hidden="false" import="true" sortIndex="7" type="upgrade">
           <constraints>
@@ -731,13 +725,11 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                     <infoLink name="Energía" id="e039-a7ac-ba96-58ef" hidden="false" targetId="2528-3f58-a823-5b4a" type="rule"/>
                     <infoLink name="Armas de Precisión" id="ea80-a57d-561e-7c22" hidden="false" targetId="8f62-4549-a7d1-f500" type="profile"/>
                   </infoLinks>
-                  <profiles>
-                    <profile name="La Espada del Silencio" id="05a2-9155-3740-8703" hidden="false" page="42" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-                      <characteristics>
-                        <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">Se trata de un arma de energía de precisión.</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
+                  <rules>
+                    <rule name="La Espada del Silencio" id="05a2-9155-3740-8703" hidden="false" page="42" publicationId="822e-763d-4a6a-b7fc">
+                      <description>Se trata de un arma de energía de precisión.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -789,11 +781,6 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
         <infoLink name="Psíquico" id="178c-0359-d5d0-e860" hidden="false" targetId="72c2-fd50-9880-c83c" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Poderes Psíquicos" id="9475-bd44-fc6d-4830" hidden="false" page="38" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-          <characteristics>
-            <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">Un Bibliotecario Ángel Oscuro tiene dos poderes psíquicos (Escudo de Energía y Fuego Infernal). Solo puede usar un poder en cada turno del jugador. Todos los poderes psíquicos de los Bibliotecarios de los Ángeles Oscuros están sujetos a las reglas descritas en el reglamento de Warhammer 40,000.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Bibliotecario" id="d516-41f2-df41-48da" hidden="false" page="38" publicationId="822e-763d-4a6a-b7fc" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unidad">
           <characteristics>
             <characteristic name="Tipo" typeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5">Infantería (Personaje)</characteristic>
@@ -809,6 +796,11 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule name="Poderes Psíquicos" id="9475-bd44-fc6d-4830" hidden="false" page="38" publicationId="822e-763d-4a6a-b7fc">
+          <description>Un Bibliotecario Ángel Oscuro tiene dos poderes psíquicos (Escudo de Energía y Fuego Infernal). Solo puede usar un poder en cada turno del jugador. Todos los poderes psíquicos de los Bibliotecarios de los Ángeles Oscuros están sujetos a las reglas descritas en el reglamento de Warhammer 40,000.</description>
+        </rule>
+      </rules>
       <selectionEntries>
         <selectionEntry name="Poderes Psíquicos" id="9098-74b3-64c4-b977" collective="false" hidden="false" import="true" page="39" publicationId="822e-763d-4a6a-b7fc" sortIndex="4" type="upgrade">
           <constraints>
@@ -1063,7 +1055,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
       </entryLinks>
       <infoLinks>
         <infoLink name="Personaje independiente" id="7134-c538-8e42-abe7" hidden="false" targetId="61b4-c5bb-9d85-8506" type="rule"/>
-        <infoLink name="Letanías de Odio" id="9b83-d918-554b-8c85" hidden="false" targetId="b300-4169-50c5-4c93" type="profile"/>
+        <infoLink name="Letanías de Odio" id="9b83-d918-554b-8c85" hidden="false" targetId="b300-4169-50c5-4c93" type="rule"/>
         <infoLink name="Honor del Capítulo" id="3182-874f-49a3-a16b" hidden="false" targetId="933b-eeef-e5f5-7a50" type="profile"/>
         <infoLink name="Coraje" id="4602-6998-956e-1ee1" hidden="false" targetId="b23b-fb5c-4c8c-5ae4" type="rule"/>
       </infoLinks>
@@ -1200,7 +1192,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
       </entryLinks>
       <infoLinks>
         <infoLink name="Personaje independiente" id="5b87-f050-cea5-4bc2" hidden="false" targetId="61b4-c5bb-9d85-8506" type="rule"/>
-        <infoLink name="Letanías de Odio" id="a3fd-8083-37d0-4b0c" hidden="false" targetId="b300-4169-50c5-4c93" type="profile"/>
+        <infoLink name="Letanías de Odio" id="a3fd-8083-37d0-4b0c" hidden="false" targetId="b300-4169-50c5-4c93" type="rule"/>
         <infoLink name="Honor del Capítulo" id="12a4-6fd8-dd32-5d0d" hidden="false" targetId="933b-eeef-e5f5-7a50" type="profile"/>
         <infoLink name="Coraje" id="6133-c54c-5b3d-ffbb" hidden="false" targetId="b23b-fb5c-4c8c-5ae4" type="rule"/>
       </infoLinks>
@@ -1965,12 +1957,12 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                     <characteristic name="Tipo" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rápido, Gravitatorio</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Escudo de la noche" id="2c22ab49-f90d-4e40-8027-55c4fd64d510" hidden="false" page="45" publicationId="822e-763d-4a6a-b7fc" typeId="c970-b832-a956-1ac8" typeName="Habilidad">
-                  <characteristics>
-                    <characteristic name="Descripción" typeId="917b-713d-7c3d-7a9e">Se trata de un mecanismo de defensa que genera un campo de energía protectora alrededor del vehículo. A efectos de juego, este campo de fuerza incrementa el blindaje frontal y lateral del Land Speeder de 10 a 14.</characteristic>
-                  </characteristics>
-                </profile>
               </profiles>
+              <rules>
+                <rule name="Escudo de la noche" id="2c22ab49-f90d-4e40-8027-55c4fd64d510" hidden="false" page="45" publicationId="822e-763d-4a6a-b7fc">
+                  <description>Se trata de un mecanismo de defensa que genera un campo de energía protectora alrededor del vehículo. A efectos de juego, este campo de fuerza incrementa el blindaje frontal y lateral del Land Speeder de 10 a 14.</description>
+                </rule>
+              </rules>
             </selectionEntry>
             <selectionEntry name="Motocicleta a reacción" id="3965-14de-fd2f-5fa6" collective="false" hidden="false" import="true" sortIndex="1" type="upgrade">
               <constraints>
@@ -2411,7 +2403,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
       </entryLinks>
       <infoLinks>
         <infoLink name="Y no conocerán el miedo" id="194b-6ce5-19ab-4ecc" hidden="false" targetId="5ce7-70c4-4a99-db0d" type="rule"/>
-        <infoLink name="Bendición del Omnissiah" id="0f0e-87aa-953c-4e6b" hidden="false" targetId="6a50-e562-f425-4b18" type="profile"/>
+        <infoLink name="Bendición del Omnissiah" id="0f0e-87aa-953c-4e6b" hidden="false" targetId="6a50-e562-f425-4b18" type="rule"/>
         <infoLink name="Granadas de asalto" id="03ed-1c48-4c40-299f" hidden="false" targetId="6fa5-b37d-1b93-9529" type="profile"/>
         <infoLink name="Granadas perforantes" id="0f3f-a063-9e39-1e60" hidden="false" targetId="88ef-f347-6da1-b41f" type="profile"/>
         <infoLink name="Granadas Perforantes y de Fragmentación" id="40ee-a220-82d6-45c6" hidden="false" targetId="e9fd-053f-940d-6f58" type="profile"/>
