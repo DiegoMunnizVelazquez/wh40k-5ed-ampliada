@@ -110,6 +110,7 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Motocicleta de Ataque:** +50 → **+40**, y el cañón de fusión +0 → **+10**.
 - **Sargento:** un único grupo de armas, como en ME: pistola bólter por defecto, combifusión, combilanzallamas y combiplasma **+10** (nuevas), arma de energía +15 (la de AO en lugar de la espada de energía de ME), pistola de plasma +15 y puño de combate +25. Se elimina la opción de espada sierra, que ME no tiene. Mantiene la baliza de teleportación y las bombas de fusión.
 - **Land Speeder (a partir de 6 miniaturas):** +100 → **+50**, con las mismas opciones que el Escuadrón de Apoyo (arma principal bólter pesado / lanzallamas pesado / cañón de fusión +10, Lanzamisiles Tifón +40 y modelo Tornado) y la regla «Despliegue Rápido».
+- **Land Speeder compartido:** el Land Speeder del Escuadrón de Apoyo y el de las motos del Ala de Cuervo (también el de Línea) son ahora **una única entrada compartida** con coste, perfil, «Despliegue Rápido» y todas las opciones de arma, así que cualquier cambio en sus armas o costes se aplica a las tres unidades. Cada unidad conserva sus propios límites: de 1 a 5 en el Escuadrón de Apoyo y uno solo (oculto hasta 6 miniaturas) en las motos.
 - Se conservan las opciones propias de AO: Apotecario (+15), Estandarte del Ala de Cuervo (+25) y baliza de teleportación.
 
 ### Sistema de juego propio (2026-11-27)
