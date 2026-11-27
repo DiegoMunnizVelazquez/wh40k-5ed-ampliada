@@ -113,6 +113,12 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Land Speeder compartido:** el Land Speeder del Escuadrón de Apoyo y el de las motos del Ala de Cuervo (también el de Línea) son ahora **una única entrada compartida** con coste, perfil, «Despliegue Rápido» y todas las opciones de arma, así que cualquier cambio en sus armas o costes se aplica a las tres unidades. Cada unidad conserva sus propios límites: de 1 a 5 en el Escuadrón de Apoyo y uno solo (oculto hasta 6 miniaturas) en las motos.
 - Se conservan las opciones propias de AO: Apotecario (+15), Estandarte del Ala de Cuervo (+25) y baliza de teleportación.
 
+### Ángeles Oscuros — Escuadra de Devastadores igual a la de Marines Espaciales (revisión 2)
+
+- **Escuadra de Devastadores** (modificada, Apoyo Pesado): misma estructura y costes que la de ME. Marine Espacial +15 → **+16**, Sargento +30 → **+26** y lanzamisiles +20 → **+15** (el mínimo sigue en 90 pts). Resto de armas pesadas sin cambios (bólter pesado y cañón de fusión +15, cañón de plasma +25, cañón láser +35).
+- **Sargento:** un único grupo de armas, como en ME (bólter y pistola bólter por defecto, espada sierra, bólter de asalto +10, combifusión, combilanzallamas y combiplasma +10, arma de energía +15, pistola de plasma +15, puño de combate +25) y **Signum** como equipo fijo, igual que en ME. Se mantiene el arma de energía de AO en lugar de la espada de energía de ME.
+- Los transportes asignados (cápsula +35, Rhino +35, Razorback +40) ya coincidían con ME. No se añade la regla «Tácticas de Combate», propia del codex de ME.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
