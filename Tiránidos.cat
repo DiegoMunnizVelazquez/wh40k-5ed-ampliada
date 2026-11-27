@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="533c-cd23-e117-6261" name="Tiránidos" gameSystemId="310af520-2d8e-4c1d-b969-d49b4f3ad0f9" gameSystemRevision="1" revision="1" authorUrl="csddmv@gmail.com" authorContact="csddmv@gmail.com" authorName="Diego Muñiz Velázquez" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="533c-cd23-e117-6261" name="Tiránidos" gameSystemId="310af520-2d8e-4c1d-b969-d49b4f3ad0f9" gameSystemRevision="1" revision="2" authorUrl="csddmv@gmail.com" authorContact="csddmv@gmail.com" authorName="Diego Muñiz Velázquez" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Biovoro" typeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" typeName="Unidad" hidden="false" id="5c69-a5c8-e9be-8840">
       <characteristics>

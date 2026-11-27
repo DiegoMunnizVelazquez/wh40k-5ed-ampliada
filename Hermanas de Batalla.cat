@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hermanas de Batalla" id="e44c-71d1-0783-bf45" authorContact="csddmv@gmail.com" authorName="Diego Muñiz Velázquez" authorUrl="csddmv@gmail.com" battleScribeVersion="2.03" gameSystemId="310af520-2d8e-4c1d-b969-d49b4f3ad0f9" gameSystemRevision="1" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hermanas de Batalla" id="e44c-71d1-0783-bf45" authorContact="csddmv@gmail.com" authorName="Diego Muñiz Velázquez" authorUrl="csddmv@gmail.com" battleScribeVersion="2.03" gameSystemId="310af520-2d8e-4c1d-b969-d49b4f3ad0f9" gameSystemRevision="1" library="false" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="Confesor" id="cfb8-d719-3891-0a47" hidden="false"/>
   </categoryEntries>

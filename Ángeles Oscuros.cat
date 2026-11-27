@@ -490,12 +490,12 @@ Ten en cuenta que el ataque puede afectar a cualquier miniatura con atributo de 
         <characteristic name="Descripción" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Si Belial está presente en el ejército, uno de los exterminadores del Ala de Muerte del ejército podrá llevar uno de los estandartes de la compañía del Ala de Muerte. Toda unidad de Ángeles Oscuros con al menos una miniatura en un radio de 30 cm del estandarte puede repetir los chequeos de moral y de acobardamiento fallados. Además, todas las miniaturas de la unidad del portaestandarte tendrán un modificador de +1 a su atributo de Ataques.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Armas Digitales" id="7f7f-f8b8-c436-dad3" hidden="false" page="97" publicationId="f176-f140-74d8-da7d" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Equipo">
+    <profile name="Armas Digitales" id="847fbfec-4127-4232-86a1-92475703c5a3" hidden="false" page="97" publicationId="f176-f140-74d8-da7d" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Equipo">
       <characteristics>
         <characteristic name="Descripción" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Una miniatura equipada con armas digitales puede repetir una única tirada para herir no superada en cada fase de asalto</characteristic>
       </characteristics>
     </profile>
-    <profile name="Cápsula de Desembarco" id="62db-42db-1469-bad4" hidden="false" page="69" publicationId="f176-f140-74d8-da7d" typeId="d12a-b581-e1f4-1193" typeName="Transporte">
+    <profile name="Cápsula de Desembarco" id="bbc0a1d0-e88c-448c-83a6-ca81bcd421fe" hidden="false" page="69" publicationId="f176-f140-74d8-da7d" typeId="d12a-b581-e1f4-1193" typeName="Transporte">
       <characteristics>
         <characteristic name="HP" typeId="eeb7-edf8-2c77-59b6">4</characteristic>
         <characteristic name="Frontal" typeId="584e-15ce-949b-e298">12</characteristic>
@@ -526,13 +526,13 @@ De forma muy similar a las escuadras de combate, la motocicleta de ataque y el L
 
 Por lo tanto, los puntos de victoria se consiguen de forma separada por cada escuadra de combate de motocicletas (cada escuadra de combate vale la mitad de los puntos de victoria que cuestan las seis motocicletas), por la motocicleta de ataque (50 puntos de victoria) y por el Land Speeder (100 puntos de victoria).</description>
     </rule>
-    <rule name="Inmóvil" id="12f2c685-e1ec-45cc-a15a-16842525bc5c" hidden="false">
+    <rule name="Inmóvil" id="50b844f4-d2c4-4d73-9599-679144b6c943" hidden="false">
       <description>Una cápsula de desembarco no puede moverse una vez que ha entrado en batalla y cuenta a todos los efectos como un vehículo que ha sufrido un resultado de inmovilizado en la tabla de daños (no puede repararse de ningún modo).</description>
     </rule>
-    <rule name="Sistema de guía inercial" id="91f9e1c5-4f59-45e3-afcf-b63de2cbdc9d" hidden="false">
+    <rule name="Sistema de guía inercial" id="727fe2c0-8fbc-4d50-b2ee-4b53a757ede4" hidden="false">
       <description>Si una cápsula de desembarco se dispersa encima de terreno infranqueable o de otra miniatura (amiga o enemiga), reduce la distancia de dispersión a lo mínimo necesario para poder evitar el obstáculo.</description>
     </rule>
-    <rule name="Asalto orbital" id="f5465373-7dd1-4356-9357-d2c7b3b4351b" hidden="false">
+    <rule name="Asalto orbital" id="a5b3e45d-b460-410e-8112-93e92d8e2ce1" hidden="false">
       <description>Las cápsulas de desembarco entran en juego siguiendo las reglas de Despliegue rápido descritas en la sección de reglas especiales de misión del reglamento de Warhammer 40.000. Al inicio de tu primer turno, debes elegir a la mitad de tus cápsulas de desembarco (redondeando hacia arriba) para que efectúen un asalto orbital. Las unidades que efectúan el asalto orbital aparecen en el primer turno del jugador. El resto de cápsulas de desembarco del jugador se incorporarán a la partida siguiendo el procedimiento habitual. Una unidad que efectúe un asalto orbital con cápsulas de desembarco no podrá asaltar el turno en el que entra en juego.</description>
     </rule>
   </sharedRules>
@@ -1255,7 +1255,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                     <cost name="Pts" typeId="puntos" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink name="Armas digitales" id="3b93d49f-51f8-424b-8313-ff3c50b65a98" collective="false" hidden="false" import="true" sortIndex="5" targetId="52ed-0f4c-0a80-234e" type="selectionEntry">
+                <entryLink name="Armas digitales" id="3b93d49f-51f8-424b-8313-ff3c50b65a98" collective="false" hidden="false" import="true" sortIndex="5" targetId="ada7412c-c370-4a8e-acb9-e469f7ad502a" type="selectionEntry">
                   <constraints>
                     <constraint id="68b6e466-c131-406a-8304-49374850e05c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -1440,7 +1440,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
             <cost name="Pts" typeId="puntos" value="15"/>
           </costs>
         </entryLink>
-        <entryLink name="Cápsula de desembarco asignada" id="a5da7277-b786-4889-8144-a4817f8e057a" collective="false" hidden="false" import="true" sortIndex="9" targetId="0191019d-34c4-444d-a4a1-d40bb56b111a" type="selectionEntryGroup"/>
+        <entryLink name="Cápsula de desembarco asignada" id="a5da7277-b786-4889-8144-a4817f8e057a" collective="false" hidden="false" import="true" sortIndex="9" targetId="cd80c440-cd5a-415d-be98-2dfe8af929be" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dreadnought" id="9eaf105e-c794-48c1-b079-c45161f4dcc8" hidden="false" targetId="2215-e9a5-6330-4350" type="profile"/>
@@ -1474,7 +1474,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                 <cost name="Pts" typeId="puntos" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="74d9bb91-aa0b-4e3b-976a-244229efcb2e" collective="false" hidden="false" import="true" targetId="b2f0-9d2d-bb96-effa" type="selectionEntryGroup"/>
+                <entryLink name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="74d9bb91-aa0b-4e3b-976a-244229efcb2e" collective="false" hidden="false" import="true" targetId="7245a302-2149-4048-b33e-45ae61e262f9" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1548,7 +1548,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
             <cost name="Pts" typeId="puntos" value="15"/>
           </costs>
         </entryLink>
-        <entryLink name="Cápsula de desembarco asignada" id="29fc3367-85aa-46a2-9494-333b2bc8e4b5" collective="false" hidden="false" import="true" sortIndex="9" targetId="0191019d-34c4-444d-a4a1-d40bb56b111a" type="selectionEntryGroup"/>
+        <entryLink name="Cápsula de desembarco asignada" id="29fc3367-85aa-46a2-9494-333b2bc8e4b5" collective="false" hidden="false" import="true" sortIndex="9" targetId="cd80c440-cd5a-415d-be98-2dfe8af929be" type="selectionEntryGroup"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dreadnought" id="331fadf6-8d66-4c70-8a0d-8cfed921074d" hidden="false" targetId="2215-e9a5-6330-4350" type="profile">
@@ -1638,7 +1638,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                 <cost name="Pts" typeId="puntos" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="a6524076-610a-41ea-b48d-390b602088bb" collective="false" hidden="false" import="true" targetId="b2f0-9d2d-bb96-effa" type="selectionEntryGroup"/>
+                <entryLink name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="a6524076-610a-41ea-b48d-390b602088bb" collective="false" hidden="false" import="true" targetId="7245a302-2149-4048-b33e-45ae61e262f9" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2512,7 +2512,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                 <constraint id="95d6-58be-5d0d-c494" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="7a2d-adfa-1e00-a0a4" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="7a2d-adfa-1e00-a0a4" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
               <constraints>
                 <constraint id="cb09-0f19-185d-042f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -2522,14 +2522,14 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
       </selectionEntryGroups>
     </selectionEntry>
 
-    <selectionEntry name="Cápsula de Desembarco" id="822d-f006-230d-66db" collective="false" hidden="false" import="true" type="unit">
+    <selectionEntry name="Cápsula de Desembarco" id="921b5073-f037-4cf2-9936-75e97db5fc87" collective="false" hidden="false" import="true" type="unit">
       <costs>
         <cost name="Pts" typeId="puntos" value="35"/>
       </costs>
       <entryLinks>
-        <entryLink name="Baliza localizadora" id="edfc2f20-c3ae-46b3-9cb2-a328ff430662" collective="false" hidden="false" import="true" sortIndex="2" targetId="a3778d2d-3f48-4376-a92b-837190df0165" type="selectionEntry">
+        <entryLink name="Baliza localizadora" id="a60caf99-144b-4194-b806-4f44234785dc" collective="false" hidden="false" import="true" sortIndex="2" targetId="f604ab16-17b4-4e8d-98f7-279ce02af38e" type="selectionEntry">
           <constraints>
-            <constraint id="3e1a4f0b-5644-41e4-9201-d1f8781ce9c9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="30c051aa-e350-4c9d-bd73-4d548923a6ad" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <costs>
             <cost name="Pts" typeId="puntos" value="10"/>
@@ -2537,26 +2537,26 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
         </entryLink>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Cápsula de Desembarco" id="6e02-ec5b-baf3-e48a" hidden="false" targetId="62db-42db-1469-bad4" type="profile"/>
-        <infoLink name="Asalto orbital" id="263975ea-f666-4cdf-87f7-18374790173f" hidden="false" targetId="f5465373-7dd1-4356-9357-d2c7b3b4351b" type="rule"/>
-        <infoLink name="Sistema de guía inercial" id="985c3c4d-4c7f-4b56-9df5-ca0e627352d5" hidden="false" targetId="91f9e1c5-4f59-45e3-afcf-b63de2cbdc9d" type="rule"/>
-        <infoLink name="Inmóvil" id="eec4f0bf-62b7-441a-b9f6-b2e56e9ef9f3" hidden="false" targetId="12f2c685-e1ec-45cc-a15a-16842525bc5c" type="rule"/>
+        <infoLink name="Cápsula de Desembarco" id="0c04a57c-1fba-4f02-861a-83a1ca2ca4b0" hidden="false" targetId="bbc0a1d0-e88c-448c-83a6-ca81bcd421fe" type="profile"/>
+        <infoLink name="Asalto orbital" id="466c5661-edb7-490e-a827-effd9d83ea09" hidden="false" targetId="a5b3e45d-b460-410e-8112-93e92d8e2ce1" type="rule"/>
+        <infoLink name="Sistema de guía inercial" id="95dfdc35-acf4-4d8b-a811-570b30e66051" hidden="false" targetId="727fe2c0-8fbc-4d50-b2ee-4b53a757ede4" type="rule"/>
+        <infoLink name="Inmóvil" id="8cca9779-e1be-41f7-bebb-e0e9dfa502f4" hidden="false" targetId="50b844f4-d2c4-4d73-9599-679144b6c943" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Arma principal" id="6a690b88-15f0-424b-9828-647c9dc468bb" collapsible="true" collective="false" defaultSelectionEntryId="d69c734d-484c-4e8d-9b8d-d6fb524e0ed8" hidden="false" import="true" sortIndex="1">
+        <selectionEntryGroup name="Arma principal" id="bb5308d8-6af2-4f8c-ba04-0044cd526612" collapsible="true" collective="false" defaultSelectionEntryId="c2380bd5-f4f7-431b-8b49-91f4f818d45b" hidden="false" import="true" sortIndex="1">
           <constraints>
-            <constraint id="c62d814c-120d-450b-8a93-82511506b0c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-            <constraint id="6ed446ef-6b79-4de9-84fa-6e517319dfad" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="f77323c8-9e0c-4f88-978f-fe51c77fa38c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="6966f804-616d-4120-9a5e-17faf125ad4d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Bólter de asalto" id="d69c734d-484c-4e8d-9b8d-d6fb524e0ed8" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="1" targetId="9f573c4c-5f06-4ba3-8a0a-f6b878b030ae" type="selectionEntry">
+            <entryLink name="Bólter de asalto" id="c2380bd5-f4f7-431b-8b49-91f4f818d45b" collective="false" defaultAmount="1" hidden="false" import="true" sortIndex="1" targetId="9f573c4c-5f06-4ba3-8a0a-f6b878b030ae" type="selectionEntry">
               <constraints>
-                <constraint id="d83aa98b-0d72-45b8-af26-1d7454988de1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="9561e65a-28fe-4c5e-8deb-9774331d10f4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Lanzamisiles viento de muerte" id="1a78925f-3fb6-4aab-a5bf-97000d557275" collective="false" hidden="false" import="true" sortIndex="2" targetId="b5dd807f-6bae-4ea5-9af7-f8b3d35dc9e2" type="selectionEntry">
+            <entryLink name="Lanzamisiles viento de muerte" id="4cf862bf-e88a-4f82-be29-291e7683ab16" collective="false" hidden="false" import="true" sortIndex="2" targetId="b5dd807f-6bae-4ea5-9af7-f8b3d35dc9e2" type="selectionEntry">
               <constraints>
-                <constraint id="2435b7d2-2bde-43ab-ae8d-b3f4233a2029" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="1a2d2676-f9cb-4264-9f33-375f97fbffae" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
                 <cost name="Pts" typeId="puntos" value="20"/>
@@ -2849,7 +2849,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                     <modifier field="puntos" type="set" value="0"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Cápsula de Desembarco" id="35e4-1f09-b7cf-46da" collective="false" hidden="false" import="true" sortIndex="2" targetId="822d-f006-230d-66db" type="selectionEntry">
+                <entryLink name="Cápsula de Desembarco" id="35e4-1f09-b7cf-46da" collective="false" hidden="false" import="true" sortIndex="2" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
                   <constraints>
                     <constraint id="df3c-aaea-1c09-448f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
@@ -3132,7 +3132,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                 <constraint id="9d39-4d0b-479e-a4c2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="8770-2161-dff3-a508" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="8770-2161-dff3-a508" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
               <constraints>
                 <constraint id="8cb0-948d-02d4-8198" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -3146,7 +3146,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
         <cost name="Pts" typeId="puntos" value="0"/>
       </costs>
       <entryLinks>
-        <entryLink name="Cápsula de Desembarco" id="5869-0bd9-5804-a389" collective="false" hidden="false" import="true" sortIndex="3" targetId="822d-f006-230d-66db" type="selectionEntry">
+        <entryLink name="Cápsula de Desembarco" id="5869-0bd9-5804-a389" collective="false" hidden="false" import="true" sortIndex="3" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
           <constraints>
             <constraint id="f3e0-9e05-8dd2-9f0d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -4105,7 +4105,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <constraint id="7006-d467-e766-0050" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="8f61-49e4-7edb-b1ce" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="8f61-49e4-7edb-b1ce" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
               <constraints>
                 <constraint id="735a-b547-d80c-054b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -5057,7 +5057,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
                 <constraint id="6fde-3d6b-4ad4-4d86" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
             </entryLink>
-            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+            <entryLink name="Cápsula de Desembarco" id="d1a9-800a-0957-4482" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
               <constraints>
                 <constraint id="6b95-7207-ac08-237e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -6484,20 +6484,20 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Armas Digitales" id="52ed-0f4c-0a80-234e" collective="false" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Armas Digitales" id="ada7412c-c370-4a8e-acb9-e469f7ad502a" collective="false" hidden="false" import="true" type="upgrade">
       <constraints>
-        <constraint id="6a52-7287-0501-49dd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="8ca68b8d-7b13-46fa-8a8d-6f371fc82064" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="puntos" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Armas Digitales" id="09f4-b5aa-ba9d-bb64" hidden="false" targetId="7f7f-f8b8-c436-dad3" type="profile"/>
+        <infoLink name="Armas Digitales" id="927747ac-08e0-4a27-b9bd-ce76d705ed37" hidden="false" targetId="847fbfec-4127-4232-86a1-92475703c5a3" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Baliza localizadora" id="a3778d2d-3f48-4376-a92b-837190df0165" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Baliza localizadora" id="f604ab16-17b4-4e8d-98f7-279ce02af38e" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Baliza localizadora" id="8d245ee3-cc99-4d43-8133-eb42a3953a32" hidden="false" targetId="e308635b-7d31-459e-a511-9e17fefd931e" type="profile"/>
+        <infoLink name="Baliza localizadora" id="5ba8d352-74b5-48be-8acc-2353b9144f29" hidden="false" targetId="e308635b-7d31-459e-a511-9e17fefd931e" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Blindaje Adicional" id="f144-5d33-29a3-437f" collective="false" hidden="false" import="true" type="upgrade">
@@ -6888,7 +6888,7 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
             <constraint id="a6d4-997f-e8a4-44f8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
-        <entryLink name="Cápsula de Desembarco" id="f458-73ab-fb29-44c4" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+        <entryLink name="Cápsula de Desembarco" id="f458-73ab-fb29-44c4" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
           <constraints>
             <constraint id="c0a3-e827-79a4-4479" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -6909,26 +6909,26 @@ acobardamiento fallados. Además, todas las miniaturas de la unidad del portaest
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Cápsula de desembarco asignada" id="0191019d-34c4-444d-a4a1-d40bb56b111a" collapsible="true" collective="false" hidden="false" import="true">
+    <selectionEntryGroup name="Cápsula de desembarco asignada" id="cd80c440-cd5a-415d-be98-2dfe8af929be" collapsible="true" collective="false" hidden="false" import="true">
       <constraints>
-        <constraint id="71bb61c1-3c4e-4552-bea8-b35ccc82f817" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="6a899647-d1e8-4b23-8e05-dcae2734bd2c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Cápsula de desembarco" id="05d7fd04-e7db-4bb4-908a-7629adb92b40" collective="false" hidden="false" import="true" sortIndex="1" targetId="822d-f006-230d-66db" type="selectionEntry">
+        <entryLink name="Cápsula de desembarco" id="5f91e912-1122-4261-8c94-dd6a52bc728b" collective="false" hidden="false" import="true" sortIndex="1" targetId="921b5073-f037-4cf2-9936-75e97db5fc87" type="selectionEntry">
           <constraints>
-            <constraint id="9995f5dc-9b36-47b9-93af-93d00497ccfa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="7af282e0-c5be-457d-abf5-68967704f6e2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="b2f0-9d2d-bb96-effa" collective="false" defaultSelectionEntryId="867a-ab63-36f8-42b9" hidden="false" import="true">
+    <selectionEntryGroup name="Arma de combate cuerpo a cuerpo para Dreadnoughts" id="7245a302-2149-4048-b33e-45ae61e262f9" collective="false" defaultSelectionEntryId="dc5c88f0-cb48-4f52-ba60-93117c931b31" hidden="false" import="true">
       <constraints>
-        <constraint id="59c8-2cba-2d9a-d00c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-        <constraint id="47db-c752-799c-b1f6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="8bf357c2-b8cd-43fb-9fd1-21265634272e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="72e5be89-25c2-4e4c-aa5f-3e5781909389" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink name="Bolter de Asalto" id="867a-ab63-36f8-42b9" collective="false" hidden="false" import="true" sortIndex="1" targetId="ad40-66c5-9bd6-4942" type="selectionEntry"/>
-        <entryLink name="Lanzallamas Pesado" id="8556-3e9c-9b4d-534d" collective="false" hidden="false" import="true" sortIndex="2" targetId="28b6-b8bb-2a54-4d8d" type="selectionEntry">
+        <entryLink name="Bolter de Asalto" id="dc5c88f0-cb48-4f52-ba60-93117c931b31" collective="false" hidden="false" import="true" sortIndex="1" targetId="ad40-66c5-9bd6-4942" type="selectionEntry"/>
+        <entryLink name="Lanzallamas Pesado" id="b085772b-487e-4534-a68f-5f80a6bb8df7" collective="false" hidden="false" import="true" sortIndex="2" targetId="28b6-b8bb-2a54-4d8d" type="selectionEntry">
           <costs>
             <cost name="Pts" typeId="puntos" value="10"/>
           </costs>

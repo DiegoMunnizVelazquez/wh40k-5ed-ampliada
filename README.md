@@ -29,21 +29,21 @@ Contenido idéntico al de `wh40k-5ed` al crear el repositorio. La columna *revis
 |---|---|---|
 | Sistema de juego (`.gst`) | 1 | — |
 | Ángeles Oscuros | 2 | 27 |
-| Ángeles Sangrientos | 1 | 35 |
-| Caballeros Grises | 1 | 31 |
-| Demonios del Caos | 1 | 30 |
-| Eldar Oscuros | 1 | 30 |
-| Eldars | 1 | 26 |
-| Guardia Imperial | 1 | 25 |
-| Hermanas de Batalla | 1 | 15 |
-| Imperio Tau | 1 | 17 |
-| Lobos Espaciales | 1 | 30 |
-| Marines Espaciales | 1 | 46 |
-| Marines Espaciales del Caos | 1 | 30 |
-| Necrones | 1 | 27 |
-| Orkos | 1 | 24 |
-| Templarios Negros | 1 | 26 |
-| Tiránidos | 1 | 30 |
+| Ángeles Sangrientos | 2 | 35 |
+| Caballeros Grises | 2 | 31 |
+| Demonios del Caos | 2 | 30 |
+| Eldar Oscuros | 2 | 30 |
+| Eldars | 2 | 26 |
+| Guardia Imperial | 2 | 25 |
+| Hermanas de Batalla | 2 | 15 |
+| Imperio Tau | 2 | 17 |
+| Lobos Espaciales | 2 | 30 |
+| Marines Espaciales | 2 | 46 |
+| Marines Espaciales del Caos | 2 | 30 |
+| Necrones | 2 | 27 |
+| Orkos | 2 | 24 |
+| Templarios Negros | 2 | 26 |
+| Tiránidos | 2 | 30 |
 
 *Unidades = entradas que el jugador ve al montar la lista (enlaces de la raíz del catálogo).*
 
@@ -134,6 +134,11 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Rhino:** equipo como en ME: pala +5, **bólter de asalto adicional +10** (sustituye al afuste exterior +5), **misil +15 → +10** y blindaje +15.
 - **Cápsula de desembarco:** ya era la de ME. Costes base sin cambios (cápsula +35, Rhino +35, Razorback +40).
 - No se añade el Hermano-Sargento Chronus de ME.
+
+### Sistema de juego propio y revisión 2 de los catálogos
+
+- Los 15 catálogos distintos de Ángeles Oscuros suben a la **revisión 2** porque apuntan al nuevo `gameSystemId` del sistema de juego «Warhammer 40,000 5ª Edición Ampliada» (solo cambia esa referencia; sus unidades no cambian).
+- **Ángeles Oscuros:** se regeneran 33 identificadores que se habían copiado tal cual de Marines Espaciales (cápsula de desembarco, baliza localizadora, armas digitales, etc.) y el editor señalaba como duplicados entre catálogos.
 
 ### Sistema de juego propio (2026-11-27)
 
