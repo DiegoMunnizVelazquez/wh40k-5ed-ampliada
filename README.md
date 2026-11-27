@@ -55,3 +55,9 @@ Cada cambio se anota aquí con la fecha, el catálogo y las unidades **nuevas** 
 
 - Todas las revisiones (`revision`) pasan a **1**, y el `gameSystemRevision` de cada catálogo a 1, para que este repositorio tenga numeración propia, independiente de `wh40k-5ed`.
 - No cambia ninguna unidad ni perfil: el contenido de las unidades sigue siendo idéntico al de `wh40k-5ed`.
+
+### Sincronización con wh40k-5ed (2026-11-27)
+
+- Los catálogos y el sistema de juego vuelven a ser **idénticos a los de `wh40k-5ed`** en su estado actual (incluidas sus últimas correcciones y la revisión de Ángeles Oscuros), porque aquí aún no se ha modificado ni creado ninguna unidad.
+- Las revisiones se mantienen en **1** (`revision` y `gameSystemRevision`): la numeración propia de este repositorio no avanza hasta que haya cambios propios.
+- El catálogo `Ángeles Oscuros` se llama ahora así (con tilde), igual que en `wh40k-5ed`; sustituye a `Angeles Oscuros.cat`.
