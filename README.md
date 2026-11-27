@@ -106,10 +106,10 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 
 - **Escuadrón de Ataque del Ala de Cuervo** (modificado, Ataque Rápido; también su copia de Línea): sin coste base, como el Escuadrón de Motocicletas de ME. Antes costaba 120 pts fijos por el sargento y dos motoristas; ahora el **Sargento del Ala de Cuervo cuesta +40** y cada **Motorista +25**, así que el mínimo baja de 120 a **90** pts.
 - **Motoristas:** de 2 a **7** en un único bloque, como los marines motorizados de ME (unidades de hasta 8 con el sargento). Desaparece la opción «Tres Motoristas del Ala de Cuervo adicionales (+100)».
-- **Armas de los motoristas:** solo pueden llevar el **arma especial** (lanzallamas +5, rifle de fusión +10 o rifle de plasma +15), **una por moto** y hasta dos por escuadrón. Se eliminan las opciones de pistola bólter y espada sierra.
+- **Armas de los motoristas:** todos llevan **pistola bólter** de base, como en ME. En lugar de la pistola pueden llevar el **arma especial** (lanzallamas +5, rifle de fusión +10 o rifle de plasma +15), **una por moto** y hasta dos por escuadrón. Se elimina la opción de espada sierra.
 - **Motocicleta de Ataque:** +50 → **+40**, y el cañón de fusión +0 → **+10**.
-- **Sargento:** combifusión, combilanzallamas y combiplasma a **+10** (nuevas) en su ranura de pistola. Mantiene la espada sierra, el arma de energía de AO, la baliza de teleportación y las bombas de fusión.
-- **Land Speeder (a partir de 6 miniaturas):** +100 → **+50**.
+- **Sargento:** un único grupo de armas, como en ME: pistola bólter por defecto, combifusión, combilanzallamas y combiplasma **+10** (nuevas), arma de energía +15 (la de AO en lugar de la espada de energía de ME), pistola de plasma +15 y puño de combate +25. Se elimina la opción de espada sierra, que ME no tiene. Mantiene la baliza de teleportación y las bombas de fusión.
+- **Land Speeder (a partir de 6 miniaturas):** +100 → **+50**, con las mismas opciones que el Escuadrón de Apoyo (arma principal bólter pesado / lanzallamas pesado / cañón de fusión +10, Lanzamisiles Tifón +40 y modelo Tornado) y la regla «Despliegue Rápido».
 - Se conservan las opciones propias de AO: Apotecario (+15), Estandarte del Ala de Cuervo (+25) y baliza de teleportación.
 
 ### Sistema de juego propio (2026-11-27)
