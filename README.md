@@ -119,6 +119,14 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Sargento:** un único grupo de armas, como en ME (bólter y pistola bólter por defecto, espada sierra, bólter de asalto +10, combifusión, combilanzallamas y combiplasma +10, arma de energía +15, pistola de plasma +15, puño de combate +25) y **Signum** como equipo fijo, igual que en ME. Se mantiene el arma de energía de AO en lugar de la espada de energía de ME.
 - Los transportes asignados (cápsula +35, Rhino +35, Razorback +40) ya coincidían con ME. No se añade la regla «Tácticas de Combate», propia del codex de ME.
 
+### Ángeles Oscuros — vehículos de Apoyo Pesado con el equipo y los puntos de Marines Espaciales (revisión 2)
+
+- **Land Raider, Land Raider Cruzado, Predator, Vindicator y Whirlwind** (modificados): el grupo de equipo opcional pasa a ser el de ME. El **misil cazador asesino baja de +15 a +10** y el «bólter de asalto en afuste exterior» (+5) se sustituye por el **bólter de asalto (+10)** de ME. El blindaje adicional (+15) y la pala excavadora (+5, solo en Predator, Vindicator y Whirlwind) no cambian.
+- **Predator** 70 → **60** pts y **Vindicator** 125 → **115** pts, como en ME.
+- **Vindicator:** gana el **escudo de asedio** (+10) y un **bólter de asalto adicional** (+10), además del que ya lleva de serie.
+- **Armas sin tocar:** se mantienen los costes y las armas de AO (cañón láser acoplado del Predator +35, cañón de fusión incluido en el Land Raider Cruzado, sin cañón de fusión opcional en el Land Raider). Tampoco se cambian las capacidades de transporte.
+- No se añade el Hermano-Sargento Chronus de ME.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
