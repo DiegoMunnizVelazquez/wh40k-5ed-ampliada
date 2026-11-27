@@ -128,6 +128,13 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Armas sin tocar:** se mantienen los costes de las armas de AO (cañón láser acoplado del Predator +35, etc.).
 - No se añade el Hermano-Sargento Chronus de ME.
 
+### Ángeles Oscuros — Razorback y Rhino con las opciones y costes de Marines Espaciales (revisión 2)
+
+- **Razorback:** arma acoplada como en ME: bólter pesado (de serie), lanzallamas pesado +25 (nuevo), cañón de asalto +35 (nuevo), cañón láser +30 → **+35** y cañón láser y rifle de plasma +35 (nuevo). Equipo: pala +5, **bólter de asalto +10** (sustituye al afuste exterior +5), **misil cazador asesino +15 → +10** y blindaje +15.
+- **Rhino:** equipo como en ME: pala +5, **bólter de asalto adicional +10** (sustituye al afuste exterior +5), **misil +15 → +10** y blindaje +15.
+- **Cápsula de desembarco:** ya era la de ME. Costes base sin cambios (cápsula +35, Rhino +35, Razorback +40).
+- No se añade el Hermano-Sargento Chronus de ME.
+
 ### Sistema de juego propio (2026-11-27)
 
 - El `.gst` pasa a llamarse **«Warhammer 40,000 5ª Edición Ampliada»** (fichero `Warhammer 40,000 5ª Edición Ampliada.gst`), con descripción propia y un `id` nuevo (`310af520-2d8e-4c1d-b969-d49b4f3ad0f9`). Los 16 catálogos apuntan a ese `gameSystemId`.
