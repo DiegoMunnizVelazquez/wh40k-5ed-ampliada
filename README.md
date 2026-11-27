@@ -70,7 +70,7 @@ Costes y opciones de equipo del Señor de la Compañía, el Bibliotecario, el Ca
 - **Bibliotecario** (modificada): coste base 120 → **100**; grupo Armadura, Epistolario (+50) y costes iguales a los del Bibliotecario de ME. Se mantienen sus poderes psíquicos, la capucha y el arma psíquica de AO. Desaparecen las bombas de fusión, que ME no ofrece.
 - **Capellán Interrogador** (modificada): mismas opciones y costes que el Capellán de ME, con armadura de exterminador (+30) y armas digitales (+10). Base sin cambios (120).
 - **Capellán** (modificada, solo costes): puño de combate +25 → +15, combifusión, combilanzallamas y combiplasma +10 → +15, bólter de asalto +5 → +3, retrorreactor +20 → +15, moto +30 → +35. No puede llevar armadura de exterminador ni armas digitales.
-- **Combiarmas (combifusión, combilanzallamas, combiplasma):** +15 con servoarmadura en el Bibliotecario, el Capellán y el Capellán Interrogador; solo el Señor de la Compañía las mantiene en +10. Con armadura de exterminador: +5 (Señor de la Compañía e Interrogador) y +15 (Bibliotecario).
+- **Combiarmas (combifusión, combilanzallamas, combiplasma):** +15 con servoarmadura en el Bibliotecario, el Capellán y el Capellán Interrogador; solo el Señor de la Compañía las mantiene en +10. Con armadura de exterminador: +5 (Señor de la Compañía e Interrogador) y +10 (Bibliotecario, 35 pts con la armadura, como en ME).
 - Límite conocido: el *par de cuchillas relámpago* cuenta como una sola arma del grupo de dos armas, aunque ocupa las dos manos.
 
 ### Sistema de juego propio (2026-11-27)

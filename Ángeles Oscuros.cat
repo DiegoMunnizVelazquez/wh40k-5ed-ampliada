@@ -967,7 +967,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="9aa13620-58da-418e-9818-4d80ee7981e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Combilanzallamas" id="d502c301-233d-4811-ba87-4b00639596aa" collective="false" hidden="false" import="true" sortIndex="3" targetId="fb89-c4aa-05d9-1ae2" type="selectionEntry">
@@ -975,7 +975,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="4cce54b2-009b-43b8-95ee-658daa4cf1ab" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Combiplasma" id="b4fd3844-eb57-4f76-a189-8eb697f91b54" collective="false" hidden="false" import="true" sortIndex="4" targetId="4f22-ab20-9410-d4bf" type="selectionEntry">
@@ -983,7 +983,7 @@ Por lo tanto, los puntos de victoria se consiguen de forma separada por cada esc
                         <constraint id="6643d691-41e3-45c6-a89a-7ee8cacbe448" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="puntos" value="15"/>
+                        <cost name="Pts" typeId="puntos" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink name="Escudo de tormenta" id="8d904b01-756c-492f-b243-a91041e48577" collective="false" hidden="false" import="true" sortIndex="5" targetId="23585150-9804-4a7e-b60b-29994f48bde6" type="selectionEntry">
